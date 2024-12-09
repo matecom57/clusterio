@@ -19,4 +19,5 @@ Contents
 .. toctree::
 
    usage
+   resonadores
    api
