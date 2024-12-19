@@ -21,6 +21,8 @@ Contenido en esta página
 ------------------------
 
 .. toctree::
+    :maxdepth:2
+    :caption: Contenido
 
     MRILab Wiki
     Advertencias
