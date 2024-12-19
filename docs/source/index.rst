@@ -24,12 +24,12 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
    :backlinks: none
    :depth: 3
 
-Getting started3
+Getting started4
 ---------------
 
 .. _My target:
 
-MRILab Wiki3
+MRILab Wiki4
 ~~~~~~~~~~~
 
 Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
@@ -40,7 +40,8 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
     Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
 
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link
-Then the reference will be rendered as `My target`_.
+
+Then the reference will be rendered as `My target4`_.
 
 Advertencias
 ~~~~~~~~~~~~
@@ -57,7 +58,7 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
 
     ⚠️ Si se presenta algún problema que no esté contemplado en este wiki por favor repórtalo al administrador del sistema.
 
-The reference will be rendered as: `MRILab Wiki3`_.
+The reference will be rendered as: `MRILab Wiki4`_.
 
 Kit de supervivencia
 
