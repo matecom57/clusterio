@@ -22,7 +22,7 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
    :backlinks: none
    :depth: 3
 
-Getting started
+Getting started2
 ---------------
 
 .. _My target:
