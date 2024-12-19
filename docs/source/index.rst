@@ -27,7 +27,7 @@ Getting started2
 
 .. _My target:
 
-MRILab Wiki2
+MRILab Wiki3
 ~~~~~~~~~~~
 
 Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
@@ -53,6 +53,8 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
     ⚠️ Borra continuamente la papelera de reciclaje
 
     ⚠️ Si se presenta algún problema que no esté contemplado en este wiki por favor repórtalo al administrador del sistema.
+
+The reference will be rendered as: `MRILab Wiki3`_.
 
 Kit de supervivencia
 
