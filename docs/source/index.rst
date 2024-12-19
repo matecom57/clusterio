@@ -1,7 +1,7 @@
 ¡Bienvenido a la documentación de Don Clusterio!
 ===================================
 
-referencia: `wiki <https://github.com/c13inb/c13inb.github.io/wiki/>`
+referencia: `wiki <https://github.com/c13inb/c13inb.github.io/wiki/>`_
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
