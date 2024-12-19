@@ -27,7 +27,7 @@ Getting started2
 
 .. _My target:
 
-MRILab Wiki
+MRILab Wiki2
 ~~~~~~~~~~~
 
 Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
