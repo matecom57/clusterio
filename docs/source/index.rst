@@ -17,19 +17,15 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 
     ⚠️ Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio/>`_. No hacerlo implica la desactivación de la cuenta.
 
-Contenido en esta página
-------------------------
+.. contents:: Table of contents
+   :local:
+   :backlinks: none
+   :depth: 3
 
-.. toctree::
-    :maxdepth:2
-    :caption: Contenido
+Getting started
+---------------
 
-    MRILab Wiki :ref:`mrilabwiki`
-    Advertencias
-    Kit de supervivencia
-    Tutoriales Avanzados
-
-.. _mrilabwiki:
+.. _My target:
 
 MRILab Wiki
 -----------
@@ -42,7 +38,9 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
     Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
 
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link
+
 Advertencias
+------------
 
 Recuerda que el clúster es un sistema que depende de que los equipos que lo forman estén activos y en condiciones adecuadas.
 
