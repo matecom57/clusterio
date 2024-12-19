@@ -24,12 +24,12 @@ Contenido en esta página
     :maxdepth:2
     :caption: Contenido
 
-    MRILab Wiki:ref:`mrilabwiki`
+    MRILab Wiki :ref:`mrilabwiki`
     Advertencias
     Kit de supervivencia
     Tutoriales Avanzados
 
-.. _mrilabwiki
+.. _mrilabwiki:
 
 MRILab Wiki
 
