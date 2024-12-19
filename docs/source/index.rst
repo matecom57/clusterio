@@ -41,7 +41,7 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link
 
-Then the reference will be rendered as `My target4`_.
+Then the reference will be rendered as `My target`_.
 
 Advertencias
 ~~~~~~~~~~~~
@@ -58,7 +58,7 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
 
     ⚠️ Si se presenta algún problema que no esté contemplado en este wiki por favor repórtalo al administrador del sistema.
 
-The reference will be rendered as: `MRILab Wiki4`_.
+The reference will be rendered as: `My target`_.
 
 Kit de supervivencia
 
