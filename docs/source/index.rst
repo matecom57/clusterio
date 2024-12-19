@@ -58,7 +58,7 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
 
     ⚠️ Si se presenta algún problema que no esté contemplado en este wiki por favor repórtalo al administrador del sistema.
 
-The reference will be rendered as: `My target`_.
+The reference will be rendered as: `MRILab Wiki4`_.
 
 Kit de supervivencia
 
