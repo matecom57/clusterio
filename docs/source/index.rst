@@ -15,7 +15,7 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 
     ⭐ No olvides también visitar la `wiki del Lanirem <https://github.com/lanirem/documentation/wiki/XCP-Preprocessing/>`_, donde puedes encontrar aún más información!
 
-    ⚠️ Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal #don_clusterio. No hacerlo implica la desactivación de la cuenta.
+    ⚠️ Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio/>`_. No hacerlo implica la desactivación de la cuenta.
 
 Contenido en esta página
 
