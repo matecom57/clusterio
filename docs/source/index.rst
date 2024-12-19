@@ -5,7 +5,9 @@ referencia: `wiki <https://github.com/c13inb/c13inb.github.io/wiki/>`_
 
 
 Home
-Ricardo Rios edited this page Mar 13, 2024 · 43 revisions
+
+Ricardo Rios edited this page Mar 13, 2024 · `43 revisions <https://github.com/c13inb/c13inb.github.io/wiki/Home/_history>`_
+
 Bienvenidos a la MRI-lab Wiki!
 
 Bienvenido a la wiki del Laboratorio de Imágenes de Resonancia Magnética. Esta página contiene el repositorio para la wiki y herramientas de los usuarios del MRI-lab.
