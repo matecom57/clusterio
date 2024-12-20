@@ -1,7 +1,10 @@
 
-Modules
-Ricardo Rios edited this page Mar 13, 2024 · 2 revisions
 Módulos
+=======
+
+Ricardo Rios edited this page Mar 13, 2024 · 2 revisions
+
+
 
 Los módulos son una herramienta que permite personalizar el software disponible al usuario en una sesión de su terminal mediante archivos de módulos.
 
