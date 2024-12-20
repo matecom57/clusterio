@@ -85,8 +85,7 @@ For example, an in-line target inside a paragraph:
          You can also create _`in-line targets` within an element on your page,
          allowing you to, for example, reference text *within* a paragraph.
 
-Then you can reference it using ```in-line targets`_``,
-that will be rendered as: `in-line targets`_.
+
 
 Implicit targets
 ~~~~~~~~~~~~~~~~
