@@ -36,13 +36,14 @@ Getting started
 MRILab Wiki
 ~~~~~~~~~~~
 
-Cross referencing in Sphinx uses two components, **references** and **targets**.
+Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
 
-- **references** are pointers in your documentation to other parts of your documentation.
-- **targets** are where the references can point to.
+Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 
-You can manually create a *target* in any location of your documentation, allowing
-you to *reference* it from other pages. These are called **explicit targets**.
+    Si deseas complementar o corregir alguna entrada que ya está en la wiki.
+    Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
+
+Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link
 
 For example, one way of creating an explicit target for a section is:
 
