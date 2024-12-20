@@ -3,12 +3,16 @@ HOME
 
 Clúster: Folder usuario (home)
 Luis Concha edited this page Aug 26, 2024 · 3 revisions
+
 ¿Qué es el Home?
+----------------
 
-El home es un espacio que pertenece a cada usuario, es el lugar dónde nos encontramos al iniciar sesión. Suele tener permisos de escritura/lectura exclusivos para el usuario al que pertenece. También aquí suelen residir los archivos de configuración exclusivos para el usuario.
+El home es un espacio que pertenece a cada usuario, es el lugar dónde nos encontramos al iniciar sesión. Suele tener permisos de **escritura/lectura** exclusivos para el usuario al que pertenece. También aquí suelen residir los archivos de configuración exclusivos para el usuario.
+
 ¿Dónde está?
+------------
 
-En la estructura de los sistemas Unix suelen encontrarse en la dirección
+En la estructura de los sistemas **Unix** suelen encontrarse en la dirección
 
 .. code-block::bash
 
