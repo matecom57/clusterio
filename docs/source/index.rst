@@ -153,7 +153,7 @@ Kit de supervivencia
 
     - Aprende a buscar información
     - :doc:`Cluster`. Aquí se explica cómo está organizado el cluster, cómo se utiliza y los errores más frecuentes durante su uso.
-    - Modulos: Los módulos es una forma de cargar software a tu sesión de temrinal en el clúster. La mayoría de lso móludos están orientados a software de neuroimagen. Esta entrada explica como hacerlo.
+    - :doc:`Modules` : Los módulos es una forma de cargar software a tu sesión de temrinal en el clúster. La mayoría de lso móludos están orientados a software de neuroimagen. Esta entrada explica como hacerlo.
     - /home: ¿Qué es y cómo se usa?. En esta sección se mencionan las mejores prácticas para el uso de home en un sistema NFS, el uso de la carpeta temporal, cómo se realiza el respaldo home y el respaldo de los datos en general.
     - /misc: ¿Dónde guardar mis datos?. Si bien /home guarda las configuraciones individuales de cada usuario, el respaldo de los datos (como las imágenes) debe realizarse en el directorio /misc con el fin de mejorar el uso del cluster.
     - Bash. Bash que es un programa informático cuya función es interpretar ordenes.
