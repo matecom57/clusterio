@@ -29,7 +29,7 @@ La más importante a conocer acerca de como guardar tus datos usando tu usuario 
 Respaldo de datos
 -----------------
 
-En la entrada Respaldo de datos podemos encontrar en qué consiste el respaldo de datos que se realizan al clúster, dónde se guardan y cómo nombrar a mis datos para que se respalden.
+En la entrada :doc:`Cluster-Respaldo-datos` podemos encontrar en qué consiste el respaldo de datos que se realizan al clúster, dónde se guardan y cómo nombrar a mis datos para que se respalden.
 Comandos básicos del clúster
 
 En la entrada Gestión de procesos encontramos los principales comandos para monitorear los trabajos, eliminar trabajos con error y para revisar la carga del clúster.
