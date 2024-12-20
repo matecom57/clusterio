@@ -10,7 +10,9 @@ El home es un espacio que pertenece a cada usuario, es el lugar dónde nos encon
 
 En la estructura de los sistemas Unix suelen encontrarse en la dirección
 
- /home/usuario
+.. code-block::bash
+
+   /home/usuario
 
 Pero en el clúster del laboratorio, la ruta correcta es:
 
