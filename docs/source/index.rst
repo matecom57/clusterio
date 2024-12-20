@@ -43,7 +43,7 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
     Si deseas complementar o corregir alguna entrada que ya está en la wiki.
     Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
 
-Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link
+Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link :doc:Modificar-Wiki
 
 For example, one way of creating an explicit target for a section is:
 
