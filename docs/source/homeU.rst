@@ -20,25 +20,35 @@ En la estructura de los sistemas **Unix** suelen encontrarse en la dirección
 
 Pero en el clúster del laboratorio, la ruta correcta es:
 
-/home/inb/usuario
+.. code-block:: bash
+   $ /home/inb/usuario
 
 Donde usuario es sustituido por el usuario en curso. Se puede acceder mediante:
-Ruta absoluta
 
- cd /home/inb/usuario
+- Ruta absoluta
 
-Ruta con "wildcard" (comodín)
+.. code-block:: bash
 
-cd ~/
+   $ cd /home/inb/usuario
 
-También nos podemos trasladar usando el comando cd sin argumentos
+**Ruta con "wildcard" (comodín)**
 
-cd
+.. code-block:: bash
 
-O sea, los tres formatos del comando cd tienen la misma función.
+   $ cd ~/
+
+** También nos podemos trasladar usando el comando cd sin argumentos**
+
+.. code-block:: bash
+
+   $ cd
+
+O sea, los tres formatos del comando ``cd` tienen la misma función.
 
 En el caso de los equipos que forma parte del clúster, el directorio home se encuentra físicamente en el servidor central.
+
 Y ¿qué debo escribir?
+---------------------
 
 Es importate señalar, que debido a la configuración de respaldo y almacenamiento del clúster, es recomendable que en la carpeta home no se coloquen archivos de gran tamaño, dando preferencía a archivos como scripts, archivos de configuración, documentos. En el caso de requrir guardar archivos que se consideren grandes y que no se deseen respaldar se puede recurrir al uso de la carpeta temporal o una carpeta con el título nobackup (revisar almacenamiento).
 Qué otras cosas hay en $HOME?
