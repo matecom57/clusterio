@@ -119,7 +119,6 @@ Sphinx will create a target with the title as the name:
          This requires setting ``myst_heading_anchors = 2`` in your ``conf.py``,
          see :ref:`myst-parser:syntax/header-anchors`.
 
-The reference will be rendered as: `Explicit targets`_.
 
 Cross-referencing using roles
 -----------------------------
