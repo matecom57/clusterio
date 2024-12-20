@@ -4,13 +4,14 @@
 Clúster: Folder almacenamiento (misc)
 Luis Concha edited this page Jan 30, 2019 · 3 revisions
 
-En principio en la carpeta /misc , que se encuentra en la raíz de todos los equipos, se encuentran carpetas con los nombres de los equipos y por lo tanto con acceso a cada uno de ellos.
+En principio en la carpeta ``/misc`` , que se encuentra en la raíz de todos los equipos, se encuentran carpetas con los nombres de los equipos y por lo tanto con acceso a cada uno de ellos.
 
-Por ejemplo, la carpeta /misc/tanner se encuentra físicamente en el equipo tanner, pero se encuentra disponible desde cualquier equipo que forme parte del clúster.
+Por ejemplo, la carpeta ``/misc/tanner`` se encuentra físicamente en el equipo **tanner**, pero se encuentra disponible desde cualquier equipo que forme parte del clúster.
 
 Dentro de estas carpetas se encuentran directorios que pertenecen a los usuarios designados a usar ese espacio del equipo.
 
-Es muy importante que los usuarios graben sus datos a procesar y sus resultados en alguna carpeta dentro de /misc utilizando la siguiente nomenclatura:
+Es muy importante que los usuarios graben sus datos a procesar y sus resultados en alguna carpeta dentro de ``/misc`` utilizando la siguiente nomenclatura:
+
 
    /misc/__host__/__usuario__
 
