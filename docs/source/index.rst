@@ -122,8 +122,7 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
     ⚠️ Si se presenta algún problema que no esté contemplado en este wiki por favor repórtalo al administrador del sistema.
 
 
-When you create a section, a footnote, or a citation,
-Sphinx will create a target with the title as the name:
+
 
 .. tabs::
 
