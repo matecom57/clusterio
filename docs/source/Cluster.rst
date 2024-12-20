@@ -22,9 +22,9 @@ Organización de datos en el clúster
 
 La más importante a conocer acerca de como guardar tus datos usando tu usuario en el clúster:
 
-    - Folder del usuario :doc:`HOME`
+    - Folder del usuario :doc:`homeU`
     - Folder de almacenamiento :doc:`misc`
-    - Folder temporal ``/tmp``
+    - Folder temporal :doc:`tmp`
 
 Respaldo de datos
 -----------------
