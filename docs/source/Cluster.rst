@@ -34,7 +34,7 @@ En la entrada :doc:`Cluster-Respaldo-datos` podemos encontrar en qué consiste e
 Comandos básicos del clúster
 ----------------------------
 
-En la entrada Gestión de procesos encontramos los principales comandos para monitorear los trabajos, eliminar trabajos con error y para revisar la carga del clúster.
+En la entrada :doc:`Bash-Gestion-procesos` encontramos los principales comandos para monitorear los trabajos, eliminar trabajos con error y para revisar la carga del clúster.
 Módulos
 
 Los módulos es una forma de cargar los softwares a tu sesión de manera fácil y sin conflictos entre versiones. Checa a detalle como activarlos en la entrada de Módulos.
