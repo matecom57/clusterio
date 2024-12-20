@@ -20,131 +20,245 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 
     ⚠️ Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio/>`_. No hacerlo implica la desactivación de la cuenta.
 
-.. contents:: Table of contents3
-   :local:
-   :backlinks: none
-   :depth: 3
 
-Getting started4
----------------
 
-.. _My target:
+Table of contents
 
-MRILab Wiki4
-~~~~~~~~~~~
+    Getting started
+        Explicit targets
+        Implicit targets
+    Cross-referencing using roles
+        The ref role
+        The doc role
+        The numref role
 
-Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
+Getting started
+Explicit targets
 
-Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
+Cross referencing in Sphinx uses two components, references and targets.
 
-    Si deseas complementar o corregir alguna entrada que ya está en la wiki.
-    Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
+    references are pointers in your documentation to other parts of your documentation.
+    targets are where the references can point to.
 
-Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link
+You can manually create a target in any location of your documentation, allowing you to reference it from other pages. These are called explicit targets.
 
-Then the reference will be rendered as `My target`_.
+For example, one way of creating an explicit target for a section is:
 
-Advertencias
-~~~~~~~~~~~~
+.. tabs::
 
-Recuerda que el clúster es un sistema que depende de que los equipos que lo forman estén activos y en condiciones adecuadas.
+   .. tab:: reStructuredText
 
-    ⚠️Evita reiniciar, apagar o desmontar los equipos que se encuentre en el clúster.
+      .. code-block:: rst
 
-    ⚠️Siempre es buena práctica hacer Cerrar Sesión al terminar el día.
+         .. _My target:
 
-    ⚠️ A veces no funciona bien el cambio de usuario y podrías perder datos. Acostúmbrate a grabar tu progreso con alta frecuencia para evitar tristes pérdidas.
+         Explicit targets
+         ~~~~~~~~~~~~~~~~
 
-    ⚠️ Borra continuamente la papelera de reciclaje
+         Reference `My target`_.
 
-    ⚠️ Si se presenta algún problema que no esté contemplado en este wiki por favor repórtalo al administrador del sistema.
+   .. tab:: MyST (Markdown)
 
-The reference will be rendered as: `MRILab Wiki4`_.
+      .. code-block:: md
 
-Kit de supervivencia
+         (My_target)=
+         ## Explicit targets
 
-    Aprende a buscar información
-    Clúster. Aquí se explica cómo está organizado el cluster, cómo se utiliza y los errores más frecuentes durante su uso.
-    Modulos: Los módulos es una forma de cargar software a tu sesión de temrinal en el clúster. La mayoría de lso móludos están orientados a software de neuroimagen. Esta entrada explica como hacerlo.
-    /home: ¿Qué es y cómo se usa?. En esta sección se mencionan las mejores prácticas para el uso de home en un sistema NFS, el uso de la carpeta temporal, cómo se realiza el respaldo home y el respaldo de los datos en general.
-    /misc: ¿Dónde guardar mis datos?. Si bien /home guarda las configuraciones individuales de cada usuario, el respaldo de los datos (como las imágenes) debe realizarse en el directorio /misc con el fin de mejorar el uso del cluster.
-    Bash. Bash que es un programa informático cuya función es interpretar ordenes.
-    Permisos. Los permisos de lectura y escritura se deben de asignar tanto a carpetas como a archivos, ya que si los permisos no están debidamente asignados, puede derivar en un fallo en el procesamiento de la tarea por parte del cluster o en la falta de respaldo de los archivos.
-    Trabajo remoto. Cómo entrar al cluster desde tu laptop, en tu casa o en el café.
-    Tutoriales básicos de manipulación y procesamiento de imágenes En esta sección se encuentran descritos los pasos para manipular los archivos de imagen (dicoms o niifti u otros). Aquí se describe como registrar, normalizar, transformar, reorientar, extraer, sumar, acoplar imágenes y más. Además de algunos enlaces a páginas interesantes.
-    fMRI. Aprende a hacer análisis de resonancia funcional y algunas herramientas de fsl.
-    BIDS. Aprende acerca del estándar de almacenamiento de datos y cómo usar herramientas en contenedores.
-    Imágenes Pesadas a Difusión Asuntos relacionados a imágenes pesadas adifusión, su procesamiento y tractografía.
-    Grosor Cortical Información acerca del procesamiento de imágenes para la obtención del grosor cortical y otras bondades de FreeSurfer
-    Montar dropbox y similares con rclone
-    FAQ, Trucos y Alertas Preguntas frecuentes. Apuntes sobre algunas tareas que a los usuarios les han costado trabajo y no quiere que se les olviden, y para que potencialmente les sean útiles a otros usuarios.
-    git. Git es una herramienta que permite el control de versiones de código fuente.
-    Información adicional para el grupo BIOINFO.
-    Amira Es un software para visualización científica.
-    Anaconda Gesto de ambientes y paquetes de Python.
+         Reference [](My_target).
 
-Tutoriales Avanzados
 
-    Grosor Cortical, por rcruces.
-    Procesamiento DWI, por rcruces.
-    Grosor Cortical con CIVET y FreeSurfer, por elidom
+You can also add explicit targets before paragraphs (or any other part of a page).
 
-Enlaces externos
+Another example, add a target to a paragraph:
 
-    Enlaces Interesantes con diversas herramientas.
-    Histología. Links externos con diversas herramientas.
+.. tabs::
 
-Pages 108
+   .. tab:: reStructuredText
 
-Tabla de contenidos
+      .. code-block:: rst
 
-    Home
-    Como colaborar en la Wiki
-    rocket.chat
-    Resonadores
-        Bruker
-        GE
-        Philips
-    Bash
-        Comandos Básicos
-        Avanzado
-    Clúster
-        Organización de datos
-        Respaldo de datos
-        Gestión de procesos
-        Módulos
-        Uso del clúster
-        Errores del clúster
-        Agilizando tu sesión
-    Procesamiento de Imágenes
-        Herramientas
-            FSL
-            MRtrix3
-            FreeSurfer
-            BIDS
-        Transformación de datos
-    fMRI
-        FEAT
-        fMRI en roedores
-        Conectividad Funcional Basada en Semilla
-    DW-MRI
-        Preprocesamiento humanos.
-        Preprocesamiento roedores.
-        Tractografía
-        Multi-tensor
-        Registro
-        DSIstudio
-    FIJI - Análisis histológico
-        Tensor de Estructura
-        Stitching
-    Herramientas Software
-        rclone
-        X2Go
-        SSH
-        Git
-        Anaconda
-    Otros
-        markdown
+         .. _target to paragraph:
 
-Clone this wiki locally
-Footer
+         An easy way is just to use the final link of the page/section.
+         This works, but it has :ref:`some disadvantages <target to paragraph>`:
+
+   .. tab:: MyST (Markdown)
+
+      .. code-block:: md
+
+         (target_to_paragraph)=
+
+         An easy way is just to use the final link of the page/section.
+         This works, but it has [some disadvantages](target_to_paragraph):
+
+
+
+
+For example, an in-line target inside a paragraph:
+
+.. tabs::
+
+   .. tab:: reStructuredText
+
+      .. code-block:: rst
+
+         You can also create _`in-line targets` within an element on your page,
+         allowing you to, for example, reference text *within* a paragraph.
+
+
+
+Implicit targets
+
+You may also reference some objects by name without explicitly giving them one by using implicit targets.
+
+When you create a section, a footnote, or a citation, Sphinx will create a target with the title as the name:
+
+.. tabs::
+
+   .. tab:: reStructuredText
+
+      .. code-block:: rst
+
+         For example, to reference the previous section
+         you can use `Explicit targets`_.
+
+   .. tab:: MyST (Markdown)
+
+      .. code-block:: md
+
+         For example, to reference the previous section
+         you can use [](#explicit-targets).
+
+      .. note::
+
+         This requires setting ``myst_heading_anchors = 2`` in your ``conf.py``,
+         see :ref:`myst-parser:syntax/header-anchors`.
+
+
+Cross-referencing using roles
+
+All targets seen so far can be referenced only from the same page. Sphinx provides some roles that allow you to reference any explicit target from any page.
+
+Note
+
+Since Sphinx will make all explicit targets available globally, all targets must be unique.
+
+You can see the complete list of cross-referencing roles at :ref:`sphinx:xref-syntax`. Next, you will explore the most common ones.
+The ref role
+
+The ref role can be used to reference any explicit targets. For example:
+
+.. tabs::
+
+   .. tab:: reStructuredText
+
+      .. code-block:: rst
+
+         - :ref:`my target`.
+         - :ref:`Target to paragraph <target to paragraph>`.
+         - :ref:`Target inside a paragraph <in-line targets>`.
+
+   .. tab:: MyST (Markdown)
+
+      .. code-block:: md
+
+         - {ref}`my target`.
+         - {ref}`Target to paragraph <target_to_paragraph>`.
+
+That will be rendered as:
+
+    :ref:`my target`.
+    :ref:`Target to paragraph <target to paragraph>`.
+    :ref:`Target inside a paragraph <in-line targets>`.
+
+The ref role also allow us to reference code blocks:
+
+.. _target to code:
+
+.. code-block:: python
+
+   # Add the extension
+   extensions = [
+      'sphinx.ext.autosectionlabel',
+   ]
+
+   # Make sure the target is unique
+   autosectionlabel_prefix_document = True
+
+We can reference it using :ref:`code <target to code>`, that will be rendered as: :ref:`code <target to code>`.
+The doc role
+
+The doc role allows us to link to a page instead of just a section. The target name can be relative to the page where the role exists, or relative to your documentation's root folder (in both cases, you should omit the extension).
+
+For example, to link to a page in the same directory as this one you can use:
+
+.. tabs::
+
+   .. tab:: reStructuredText
+
+      .. code-block:: rst
+
+         - :doc:`intersphinx`
+         - :doc:`/guides/intersphinx`
+         - :doc:`Custom title </guides/intersphinx>`
+
+   .. tab:: MyST (Markdown)
+
+      .. code-block:: md
+
+         - {doc}`intersphinx`
+         - {doc}`/guides/intersphinx`
+         - {doc}`Custom title </guides/intersphinx>`
+
+That will be rendered as:
+
+    :doc:`intersphinx`
+    :doc:`/guides/intersphinx`
+    :doc:`Custom title </guides/intersphinx>`
+
+Tip
+
+Using paths relative to your documentation root is recommended, so you avoid changing the target name if the page is moved.
+The numref role
+
+The numref role is used to reference numbered elements of your documentation. For example, tables and images.
+
+To activate numbered references, add this to your conf.py file:
+
+# Enable numref
+numfig = True
+
+Next, ensure that an object you would like to reference has an explicit target.
+
+For example, you can create a target for the next image:
+Logo
+
+Link me!
+
+.. tabs::
+
+   .. tab:: reStructuredText
+
+      .. code-block:: rst
+
+         .. _target to image:
+
+         .. figure:: /img/logo.png
+            :alt: Logo
+            :align: center
+            :width: 240px
+
+            Link me!
+
+   .. tab:: MyST (Markdown)
+
+      .. code-block:: md
+
+         (target_to_image)=
+
+         ```{figure} /img/logo.png
+         :alt: Logo
+         :align: center
+         :width: 240px
+         ```
+
