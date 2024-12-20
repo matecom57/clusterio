@@ -45,7 +45,6 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link :doc:Modificar-Wiki
 
-For example, one way of creating an explicit target for a section is:
 
 .. tabs::
 
@@ -70,9 +69,7 @@ For example, one way of creating an explicit target for a section is:
          Reference [](My_target).
 
 
-You can also add explicit targets before paragraphs (or any other part of a page).
 
-Another example, add a target to a paragraph:
 
 .. tabs::
 
@@ -97,7 +94,6 @@ Another example, add a target to a paragraph:
 
 
 
-For example, an in-line target inside a paragraph:
 
 .. tabs::
 
