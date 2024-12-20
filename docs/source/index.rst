@@ -33,8 +33,8 @@ Getting started
 
 .. _My target:
 
-Explicit targets
-~~~~~~~~~~~~~~~~
+MRILab Wiki
+~~~~~~~~~~~
 
 Cross referencing in Sphinx uses two components, **references** and **targets**.
 
