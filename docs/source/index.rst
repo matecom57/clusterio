@@ -40,8 +40,8 @@ Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. C
 
 Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 
-    Si deseas complementar o corregir alguna entrada que ya está en la wiki.
-    Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
+    - Si deseas complementar o corregir alguna entrada que ya está en la wiki.
+    - Si aprendes algo nuevo y lo quieres incluir en esta wiki para que los demás podamos aprenderlo también.
 
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este link :doc:Modificar-Wiki
 
