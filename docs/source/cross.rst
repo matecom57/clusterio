@@ -46,7 +46,6 @@ For example, one way of creating an explicit target for a section is:
 
          Reference [](My_target).
 
-Then the reference will be rendered as `My target`_.
 
 You can also add explicit targets before paragraphs (or any other part of a page).
 
