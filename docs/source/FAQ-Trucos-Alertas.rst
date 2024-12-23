@@ -1,6 +1,9 @@
 
 FAQ, Trucos y Alertas
+=====================
+
 Thinkiti edited this page Jan 31, 2019 · 5 revisions
+
 Preguntas Frecuentes
 
 ¿Por qué no abre Firefox? : Si bien puede haber algún problema con la aplicación, en la mayoría de los casos el problema se debe a que una sesión de Firefox quedó abierta en alguna otra máquina. Firefox no permite dos sesiónes de usuario al mismo tiempo por el mismo usuario en diferentes máquinas. Esto se puede solucionar abriendo la máquina dónde está la sesión de Firefox y cerrarlo. Sin embargo si la máquina en cuestión está ocupada, es posible hacer una sesión ssh a la máquina en cuestion y ya ahí matar el proceso, de preferencia a través de la terminal.
