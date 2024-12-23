@@ -1,6 +1,9 @@
 
 Grosor cortical
+===============
+
 Luis Concha edited this page Mar 14, 2024 · 5 revisions
+
 Grosor cortical
 
 El grosor cortical es una medida dada por la distancia existente entre la superficie límite sustancia blanca y sustancia gris , y la superficie pial.
