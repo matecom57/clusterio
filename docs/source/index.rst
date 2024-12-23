@@ -387,10 +387,12 @@ Sphinx will enumerate the image automatically.
 Contenido 
 =========
 
-
     Home
+    ----
     Como colaborar en la Wiki
+    -------------------------
     rocket.chat
+    -----------
     Resonadores
         Bruker
         GE
