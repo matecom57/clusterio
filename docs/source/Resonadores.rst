@@ -14,7 +14,3 @@ El Laboratorio Nacional enfocado en imagenología por resonancia magnética (Lan
    Resonadores-Bruker
    Resonadores-GE
    Resonadores-Philips
- 
-Philips Achieva TX (3 T)
-------------------------
-
