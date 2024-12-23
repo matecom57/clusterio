@@ -162,7 +162,7 @@ Kit de supervivencia
     - :doc:`bids`. Aprende acerca del estándar de almacenamiento de datos y cómo usar herramientas en contenedores.
     - Imágenes Pesadas a Difusión Asuntos relacionados a imágenes pesadas adifusión, su procesamiento y tractografía.
     - :doc:`Grosor_cortical` Información acerca del procesamiento de imágenes para la obtención del grosor cortical y otras bondades de FreeSurfer
-    - Montar dropbox y similares con rclone
+    - Montar dropbox y similares con :doc:`rclone`
     - FAQ, Trucos y Alertas Preguntas frecuentes. Apuntes sobre algunas tareas que a los usuarios les han costado trabajo y no quiere que se les olviden, y para que potencialmente les sean útiles a otros usuarios.
     - git. Git es una herramienta que permite el control de versiones de código fuente.
     - Información adicional para el grupo BIOINFO.
