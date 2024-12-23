@@ -7,14 +7,14 @@ Rocket.chat
 
 El rocket.chat de Red-Lanirem está en `esta siguiente dirección: <https://chat-lanirem.lavis.unam.mx>`_
 
-🚨 Ya tienes cuenta y no puedes entrar desde la app de tu teéfono? ➡️ `Sigue este link <https://hackmd.io/EUm9hfDcRYecYU_Uov5lNA?view>`_.
+🚨 Ya tienes cuenta y no puedes entrar desde la app de tu teéfono? ➡️ `Sigue este link <https://hackmd.io/EUm9hfDcRYecYU_Uov5lNA?view>`_
 
 Crear nueva cuenta
 ------------------
 
 Si es la primera vez que nos visitas, crea una nueva cuenta (Register a new account):
 
-Lo más recomendable es instalar las aplicaciones oficiales de rocket.chat, disponibles para Windows, Mac, y Linux, así como para teléfonos iOS y Android, disponibles en el siguiente link: https://rocket.chat/install/
+Lo más recomendable es instalar las aplicaciones oficiales de rocket.chat, disponibles para Windows, Mac, y Linux, así como para teléfonos iOS y Android, disponibles en el `siguiente link: <https://rocket.chat/install/>`_
 
 Si no quieres instalar las aplicaciones, puedes usar rocket.chat directamente en tu navegador web con la URL arriba mencionada.
 Conceptos básicos
