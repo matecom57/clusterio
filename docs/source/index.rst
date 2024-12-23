@@ -8,15 +8,9 @@ Tabla de contenidos
 * :doc:`rocket-chat`
 * :doc:`Resonadores`
 * :doc:`Bash-B`
+* :doc:`Cluster`
 
-    Clúster
-        Organización de datos
-        Respaldo de datos
-        Gestión de procesos
-        Módulos
-        Uso del clúster
-        Errores del clúster
-        Agilizando tu sesión
+    
     Procesamiento de Imágenes
         Herramientas
             FSL
