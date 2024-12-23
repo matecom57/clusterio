@@ -9,15 +9,9 @@ Tabla de contenidos
 * :doc:`Resonadores`
 * :doc:`Bash-B`
 * :doc:`Cluster`
+* :doc:`Procesamiento-Imagen-B`
 
-    
-    Procesamiento de Imágenes
-        Herramientas
-            FSL
-            MRtrix3
-            FreeSurfer
-            BIDS
-        Transformación de datos
+
     fMRI
         FEAT
         fMRI en roedores
