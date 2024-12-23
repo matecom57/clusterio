@@ -10,12 +10,8 @@ Tabla de contenidos
 * :doc:`Bash-B`
 * :doc:`Cluster`
 * :doc:`Procesamiento-Imagen-B`
+* :doc:`fmri`
 
-
-    fMRI
-        FEAT
-        fMRI en roedores
-        Conectividad Funcional Basada en Semilla
     DW-MRI
         Preprocesamiento humanos.
         Preprocesamiento roedores.
