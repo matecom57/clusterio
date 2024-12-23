@@ -165,9 +165,9 @@ Kit de supervivencia
     - Montar dropbox y similares con :doc:`rclone`
     - :doc:`FAQ-Trucos-Alertas`. Apuntes sobre algunas tareas que a los usuarios les han costado trabajo y no quiere que se les olviden, y para que potencialmente les sean útiles a otros usuarios.
     - :doc:`git`. Git es una herramienta que permite el control de versiones de código fuente.
-    - Información adicional para el grupo :doc:Bioinfo`.
-    - :doc:Amira` Es un software para visualización científica.
-    - :doc:Anaconda` Gesto de ambientes y paquetes de Python.
+    - Información adicional para el grupo :doc:`Bioinfo`.
+    - :doc:`Amira` Es un software para visualización científica.
+    - :doc:`Anaconda` Gesto de ambientes y paquetes de Python.
 
 
 
@@ -197,9 +197,9 @@ Kit de supervivencia
 Tutoriales Avanzados
 ~~~~~~~~~~~~
 
-    Grosor Cortical, por rcruces.
-    Procesamiento DWI, por rcruces.
-    Grosor Cortical con CIVET y FreeSurfer, por elidom
+    - Grosor Cortical, por rcruces.
+    - Procesamiento DWI, por rcruces.
+    - Grosor Cortical con CIVET y FreeSurfer, por elidom
 
 
 
