@@ -5,13 +5,10 @@ Tabla de contenidos
 
 :doc:`home`
 -----------
-
 :doc:`Como-colaborar-wiki`
 --------------------------
-
 :doc:`rocket-chat`
 ------------------
-
 :doc:`Resonadores`
 ------------------
 
