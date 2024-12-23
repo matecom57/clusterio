@@ -165,7 +165,7 @@ Kit de supervivencia
     - Montar dropbox y similares con :doc:`rclone`
     - :doc:`FAQ-Trucos-Alertas`. Apuntes sobre algunas tareas que a los usuarios les han costado trabajo y no quiere que se les olviden, y para que potencialmente les sean útiles a otros usuarios.
     - :doc:`git`. Git es una herramienta que permite el control de versiones de código fuente.
-    - Información adicional para el grupo BIOINFO.
+    - Información adicional para el grupo :doc:Bioinfo`.
     - Amira Es un software para visualización científica.
     - Anaconda Gesto de ambientes y paquetes de Python.
 
