@@ -3,7 +3,8 @@
 Tabla de contenidos
 ===================
 
-.. contents::
+.. toctree::
+   :maxdepth: 2
 
     :doc:`home`
     :doc:`Como-colaborar-wiki`
