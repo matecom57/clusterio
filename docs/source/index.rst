@@ -4,7 +4,8 @@ Tabla de contenidos
 ===================
 
 * :doc:`home`
-* Como colaborar en la Wiki
+* :doc:`Como-colaborar-Wiki`
+
     rocket.chat
     Resonadores
         Bruker
