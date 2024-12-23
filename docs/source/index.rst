@@ -3,14 +3,14 @@
 Tabla de contenidos
 ===================
 
-:doc:`home`
------------
-:doc:`Como-colaborar-wiki`
---------------------------
-:doc:`rocket-chat`
-------------------
-:doc:`Resonadores`
-------------------
+.. toctree::
+ :numbered:
+
+    :doc:`home`
+    :doc:`Como-colaborar-wiki`
+    :doc:`rocket-chat`
+    :doc:`Resonadores`
+
 
 * :doc:`Bash-B`
 * :doc:`Cluster`
