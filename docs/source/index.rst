@@ -5,7 +5,7 @@ Tabla de contenidos
 
 * :doc:`home`
 * :doc:`Como-colaborar-wiki`
-* :doc:`Rocket-chat`
+* :doc:`rocket-chat`
 * :doc:`Resonadores`
 * :doc:`Bash-B`
 
