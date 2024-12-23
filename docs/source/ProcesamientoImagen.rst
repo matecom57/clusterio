@@ -1,5 +1,6 @@
+Tutoriales básicos de manipulación y procesamiento de imágenes
+==============================================================
 
-Procesamiento Imagen
 Paulina J Villaseñor edited this page Apr 24, 2024 · 12 revisions
 
 Las imágenes médicas, en este caso de resonancia magnética, por si solas solamente nos brindan información cualitativa, lo cual si estamos en el ámbito de la investigación pues no resulta altamente informativa. Por eso el procesamiento de estas imágenes viene de gran relevancia, ya que através del procesamiento nosotros vamos a poder extraer y destacar información importante de modo que facilité su posterior análisis.
