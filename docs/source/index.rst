@@ -5,9 +5,8 @@ Tabla de contenidos
 
 * :doc:`home`
 * :doc:`Como-colaborar-wiki`
-
-    rocket.chat
-    Resonadores
+* :doc:`Rocket-chat`
+* Resonadores
         Bruker
         GE
         Philips
