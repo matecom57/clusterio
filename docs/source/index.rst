@@ -18,10 +18,10 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 
     ⚠️ Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio/>`_. No hacerlo implica la desactivación de la cuenta.
 
-How to use cross-references with Sphinx
-=======================================
+Contenido en esta página
+========================
 
-.. contents:: Table of contents
+.. contents:: Tabla de contenido
    :local:
    :backlinks: none
    :depth: 3
