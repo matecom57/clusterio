@@ -1,5 +1,7 @@
 
 fMRI
+====
+
 Luis Concha edited this page Jan 7, 2020 · 4 revisions
 
 Un excelente tutorial que se sugiere siga todo usuario de fMRI es Andy's brain book. Es buenísimo para iniciarse en este mundo, y también está lleno de joyas para los más expertos.
