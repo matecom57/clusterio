@@ -6,10 +6,8 @@ Tabla de contenidos
 * :doc:`home`
 * :doc:`Como-colaborar-wiki`
 * :doc:`Rocket-chat`
-* Resonadores
-        Bruker
-        GE
-        Philips
+* :doc:`Resonadores`
+
     Bash
         Comandos Básicos
         Avanzado
