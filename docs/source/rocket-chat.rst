@@ -14,10 +14,12 @@ Crear nueva cuenta
 
 Si es la primera vez que nos visitas, crea una nueva cuenta (Register a new account):
 
-Lo más recomendable es instalar las aplicaciones oficiales de rocket.chat, disponibles para Windows, Mac, y Linux, así como para teléfonos iOS y Android, disponibles en el `siguiente link: <https://rocket.chat/install/>`_
+Lo más recomendable es instalar las aplicaciones oficiales de rocket.chat, disponibles para Windows, Mac, y Linux, así como para teléfonos iOS y Android, disponibles en el `siguiente link: <https://rocket.chat/install>`_
 
 Si no quieres instalar las aplicaciones, puedes usar rocket.chat directamente en tu navegador web con la URL arriba mencionada.
+
 Conceptos básicos
+-----------------
 
 La comunicación en rocket.chat se da en canales. Los canales pueden ser privados o públicos; en el caso de los privados, deberás ser invitado por la persona que administra el canal. Todos los usuarios están inscritos en los canales #general y #journalclub. El resto de los canales pueden variar entre usuarios. Aquí un ejemplo:
 
@@ -25,7 +27,7 @@ La comunicación en rocket.chat se da en canales. Los canales pueden ser privado
 
 Para escribir, utiliza la caja hasta abajo de la página. En esa página puedes usar texto simple, o utilizar negritas, cursivas, emojis, y hasta código y fórmulas matemáticas.
 
-El botón de micrófono te permite enviar mensajes de voz. El botón + te permite anexar archivos. Puedes también escribir con markdown.
+El botón de micrófono te permite enviar mensajes de voz. El botón + te permite anexar archivos. Puedes también escribir con `markdown <https://markdown.es/sintaxis-markdown>`_
 
 Los usuarios pueden ser mencionados, antecediendo su nombre con @. Esto permite que la persona mencionada reciba una notificación. El sistema es inteligente, y al escribir la @ y comenzar a escribir el nombre, aparecerán las opciones más cercanas. Los canales son ligados si se les menciona utilizando #.
 Preferencias
