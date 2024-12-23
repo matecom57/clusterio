@@ -167,7 +167,7 @@ Kit de supervivencia
     - :doc:`git`. Git es una herramienta que permite el control de versiones de código fuente.
     - Información adicional para el grupo :doc:Bioinfo`.
     - :doc:Amira` Es un software para visualización científica.
-    - Anaconda Gesto de ambientes y paquetes de Python.
+    - :doc:Anaconda` Gesto de ambientes y paquetes de Python.
 
 
 
