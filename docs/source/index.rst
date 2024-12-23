@@ -194,7 +194,36 @@ Kit de supervivencia
          see :ref:`myst-parser:syntax/header-anchors`.
 
 
+Tutoriales Avanzados
+~~~~~~~~~~~~
 
+    Grosor Cortical, por rcruces.
+    Procesamiento DWI, por rcruces.
+    Grosor Cortical con CIVET y FreeSurfer, por elidom
+
+
+
+
+.. tabs::
+
+   .. tab:: reStructuredText
+
+      .. code-block:: rst
+
+         For example, to reference the previous section
+         you can use `Explicit targets`_.
+
+   .. tab:: MyST (Markdown)
+
+      .. code-block:: md
+
+         For example, to reference the previous section
+         you can use [](#explicit-targets).
+
+      .. note::
+
+         This requires setting ``myst_heading_anchors = 2`` in your ``conf.py``,
+         see :ref:`myst-parser:syntax/header-anchors`.
 
 
 
