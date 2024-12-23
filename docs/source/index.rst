@@ -7,10 +7,8 @@ Tabla de contenidos
 * :doc:`Como-colaborar-wiki`
 * :doc:`Rocket-chat`
 * :doc:`Resonadores`
+* :doc:`Bash-B`
 
-    Bash
-        Comandos Básicos
-        Avanzado
     Clúster
         Organización de datos
         Respaldo de datos
