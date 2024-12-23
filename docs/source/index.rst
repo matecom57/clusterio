@@ -3,10 +3,18 @@
 Tabla de contenidos
 ===================
 
-* :doc:`home`
-* :doc:`Como-colaborar-wiki`
-* :doc:`rocket-chat`
-* :doc:`Resonadores`
+:doc:`home`
+-----------
+
+:doc:`Como-colaborar-wiki`
+--------------------------
+
+:doc:`rocket-chat`
+------------------
+
+:doc:`Resonadores`
+------------------
+
 * :doc:`Bash-B`
 * :doc:`Cluster`
 * :doc:`Procesamiento-Imagen-B`
