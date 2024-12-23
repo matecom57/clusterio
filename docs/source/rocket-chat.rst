@@ -7,8 +7,10 @@ Rocket.chat
 
 El rocket.chat de Red-Lanirem está en `esta siguiente dirección: <https://chat-lanirem.lavis.unam.mx>`_
 
-🚨 Ya tienes cuenta y no puedes entrar desde la app de tu teéfono? ➡️ Sigue este link.
+🚨 Ya tienes cuenta y no puedes entrar desde la app de tu teéfono? ➡️ `Sigue este link <https://hackmd.io/EUm9hfDcRYecYU_Uov5lNA?view`_.
+
 Crear nueva cuenta
+------------------
 
 Si es la primera vez que nos visitas, crea una nueva cuenta (Register a new account):
 
