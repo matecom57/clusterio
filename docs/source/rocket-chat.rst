@@ -30,15 +30,21 @@ Para escribir, utiliza la caja hasta abajo de la página. En esa página puedes 
 El botón de micrófono te permite enviar mensajes de voz. El botón + te permite anexar archivos. Puedes también escribir con `markdown <https://markdown.es/sintaxis-markdown>`_
 
 Los usuarios pueden ser mencionados, antecediendo su nombre con @. Esto permite que la persona mencionada reciba una notificación. El sistema es inteligente, y al escribir la @ y comenzar a escribir el nombre, aparecerán las opciones más cercanas. Los canales son ligados si se les menciona utilizando #.
+
 Preferencias
+------------
 
 Para personalizar tu experiencia en rocket.chat, da clic en tu avatar, en la esquina superior izquierda. Si no lo has cambiado, tu avatar es una letra de tu nombre, con un fondo colorido. Se abrirá un menú, y ve a Mi Cuenta. Esta comunidad es segura, así que en la pestaña Perfil dinos tu nombre completo, una biografía, tu apodo (si quieres), etc. En la pestaña Preferencias podrás cambiar el idioma del programa, y muchas otras cosas.
+
 Notificaciones
+--------------
 
 En la pestaña Preferencias encontrarás la sección de Notificaciones. Si instalaste la aplicación en tu teléfono, puedes controlar las notificaciones push. La opción Todos los mensajes es el default, pero puedes cambiar a menciones, y solo recibirás notificaciones si fuiste mencionada/o. Sería triste que lo hicieras, pero puedes elegir Nada.
 
 Si no usas la aplicación móvil pero no quieres estar fuera de la jugada, puedes usar el correo electrónico como sistema de notificaciones, en las opciones Notificaciones por correo electrónico fuera de línea. Igual, puedes elegir todo, menciones, o nada (:cry:).
+
 Destacados
+----------
 
 Si tienes un especial interés en palabras clave, puedes ponerlas aquí. Si esas palabras son usadas en cualquier canal en el que estés, recibirás una notificación. Ejemplos de palabras clave son cancelado, descompuesto, publicado, fiesta, etc.
 
