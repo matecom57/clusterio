@@ -9,7 +9,7 @@ referencia: `wiki <https://github.com/c13inb/c13inb.github.io/wiki/>`_
 Ricardo Rios edited this page Mar 13, 2024 · `43 revisions <https://github.com/c13inb/c13inb.github.io/wiki/Home/_history>`_
 
 Bienvenidos a la MRI-lab Wiki!
-##############################
+------------------------------
 
 .. _target to paragraph:
 
