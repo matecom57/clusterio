@@ -156,10 +156,10 @@ Kit de supervivencia
     - :doc:`misc` : ¿Dónde guardar mis datos?. Si bien /home guarda las configuraciones individuales de cada usuario, el respaldo de los datos (como las imágenes) debe realizarse en el directorio /misc con el fin de mejorar el uso del cluster.
     - :doc:`Bash` . Bash que es un programa informático cuya función es interpretar ordenes.
     - :doc:`Permisos` . Los permisos de lectura y escritura se deben de asignar tanto a carpetas como a archivos, ya que si los permisos no están debidamente asignados, puede derivar en un fallo en el procesamiento de la tarea por parte del cluster o en la falta de respaldo de los archivos.
-    - Trabajo remoto. Cómo entrar al cluster desde tu laptop, en tu casa o en el café.
-    - Tutoriales básicos de manipulación y procesamiento de imágenes En esta sección se encuentran descritos los pasos para manipular los archivos de imagen (dicoms o niifti u otros). Aquí se describe como registrar, normalizar, transformar, reorientar, extraer, sumar, acoplar imágenes y más. Además de algunos enlaces a páginas interesantes.
-    - fMRI. Aprende a hacer análisis de resonancia funcional y algunas herramientas de fsl.
-    - BIDS. Aprende acerca del estándar de almacenamiento de datos y cómo usar herramientas en contenedores.
+    - :doc:`trabajoRemoto`. Cómo entrar al cluster desde tu laptop, en tu casa o en el café.
+    - :doc:`ProcesamientoImagen` En esta sección se encuentran descritos los pasos para manipular los archivos de imagen (dicoms o niifti u otros). Aquí se describe como registrar, normalizar, transformar, reorientar, extraer, sumar, acoplar imágenes y más. Además de algunos enlaces a páginas interesantes.
+    - :doc:`fmri`. Aprende a hacer análisis de resonancia funcional y algunas herramientas de fsl.
+    - :doc:`bids`. Aprende acerca del estándar de almacenamiento de datos y cómo usar herramientas en contenedores.
     - Imágenes Pesadas a Difusión Asuntos relacionados a imágenes pesadas adifusión, su procesamiento y tractografía.
     - Grosor Cortical Información acerca del procesamiento de imágenes para la obtención del grosor cortical y otras bondades de FreeSurfer
     - Montar dropbox y similares con rclone
