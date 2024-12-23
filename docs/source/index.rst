@@ -11,14 +11,8 @@ Tabla de contenidos
 * :doc:`Cluster`
 * :doc:`Procesamiento-Imagen-B`
 * :doc:`fmri`
+* :doc:`DWMRI`
 
-    DW-MRI
-        Preprocesamiento humanos.
-        Preprocesamiento roedores.
-        Tractografía
-        Multi-tensor
-        Registro
-        DSIstudio
     FIJI - Análisis histológico
         Tensor de Estructura
         Stitching
