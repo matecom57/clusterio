@@ -26,8 +26,8 @@ Contenido en esta página
    :backlinks: none
    :depth: 3
 
-Getting started
----------------
+Empecemos
+---------
 
 .. _My target:
 
