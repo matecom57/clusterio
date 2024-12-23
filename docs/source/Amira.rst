@@ -1,5 +1,7 @@
 
 Amira
+=====
+
 Luis Concha edited this page May 17, 2019 · 3 revisions
 
 Amira es un software para visualización científica. Permite cargar archivos de volumen, superficies, tractos, etc. Además se puede programar scripts con el lenguaje tcl.
