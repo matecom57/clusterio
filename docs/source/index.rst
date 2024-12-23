@@ -4,7 +4,7 @@ Tabla de contenidos
 ===================
 
 * :doc:`home`
-* :doc:`Como-colaborar-Wiki`
+* :doc:`Como-colaborar-wiki`
 
     rocket.chat
     Resonadores
