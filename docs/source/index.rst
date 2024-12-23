@@ -3,17 +3,17 @@
 Tabla de contenidos
 ===================
 
-:doc:`home`
------------
+    :doc:`home`
+    -----------
 
-:doc:`Como-colaborar-wiki`
---------------------------
+    :doc:`Como-colaborar-wiki`
+    --------------------------
 
-:doc:`rocket-chat`
-------------------
+    :doc:`rocket-chat`
+    ------------------
 
-:doc:`Resonadores`
-------------------
+    :doc:`Resonadores`
+    ------------------
 
 * :doc:`Bash-B`
 * :doc:`Cluster`
