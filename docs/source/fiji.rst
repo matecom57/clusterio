@@ -16,7 +16,7 @@ Tutoriales de supervivencia
 ---------------------------
 
 - Videos en su canal de YouTube `aquí <https://www.youtube.com/@fijichannel>`_
-- Tutoriales y guias básicas de procesos y análisis aquí
+- Tutoriales y guias básicas de procesos y análisis `aquí <https://imagej.net/imaging/index>`_
 - Cómo hacer stitching (mosaicos) con Fiji-stitching
 
 Análisis de imágenes
