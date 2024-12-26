@@ -18,4 +18,5 @@ contribute to the ONAP documentation project.
    Procesamiento-Imagen-B
    fmri
    DWMRI
+   fiji
 
