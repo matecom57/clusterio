@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Don Clusterio'
-copyright = '2024, Leopoldo'
-author = 'Graziella'
+copyright = '2024, L. González-Santos'
+author = 'L. González-Santos'
 
 release = '0.1'
 version = '0.1.0'
