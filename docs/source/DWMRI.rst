@@ -16,10 +16,12 @@ Procesar datos de imágenes de difusión es bastante complicado, y hay muchos as
    DWMRI-Preprocesamiento-roedores
    DWMRI-designer
    Tractografía-MRtrix3
+   DWMRI-DSIstudio
 
 
 
-    * DSIstudio
+
+ 
     * Multi-resolution discrete-search
     * Registro
     * Resonador GE
