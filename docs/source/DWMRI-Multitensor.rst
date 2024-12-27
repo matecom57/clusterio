@@ -1,17 +1,24 @@
 DWMRI: Multi tensor
+===================
+
 Paulina J Villaseñor edited this page on Jun 17 · 2 revisions
+
 MULTI-RESOLUTION DISCRETE-SEARCH
+--------------------------------
+
 En este manual repasaremos paso por paso como implementar el método multi-tensor MRDS desarrollado por el Dr. Ricardo Coronado-Leija, para literatura mas extensa de como funciona el método, porfavor consulta el artículo aquí.
 
 MRDS sigue una serie de pasos para poder ser implementado, primero antes que nada vamos a cargar los módulos necesarios:
 
-module load mrtrix/3.0.4
-module load mrds/1.0
+``module load mrtrix/3.0.4``
+``module load mrds/1.0``
+
 MRDS lo puedes ejecutar en toooodo el cerebro o en una rebanada o en solo la corteza, eso dependerá de tu análisis. Para fines didácticos, vamos a hacer todo el cerebro de rata de una sola rebanada.
 
 Antes de empezar, necesitamos preparar algunos datos que MRDS nos pedirá para su ejecución:
 
 1. Scheme
+
 El scheme no es nada mas que la información de los gradientes de difusión de la imágen, es decir, tus archivos .bvec y .bval. Sin embargo, MRDS pide que estos esten juntos en un archivo de texto organizados de manera específica con 4 columnas en el orden X Y Z b, donde x y x es la dirección de los gradientes y b es el b-value asociado.
 
 Por ejemplo, si vemos como esta ordenado tu archivo .bvec original, vemos que esta de esta manera:
