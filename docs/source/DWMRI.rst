@@ -12,6 +12,8 @@ Procesar datos de imágenes de difusión es bastante complicado, y hay muchos as
 .. toctree::
    :maxdepth: 2
 
+   DWMRI-Preprocesamiento-humanos
+
     * Preprocesamiento en imágenes de humanos.
     * Preprocesamiento en roedores
     * Preprocesamiento con Designer
