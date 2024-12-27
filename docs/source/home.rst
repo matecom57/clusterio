@@ -24,7 +24,6 @@ Contenido en esta página
 
 .. contents:: Tabla de contenido
    :local:
-   :numbered:
    :backlinks: none
    :depth: 3
 
