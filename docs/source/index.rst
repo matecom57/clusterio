@@ -3,8 +3,7 @@
 Guías de documentación
 ======================
 
-The following guides are provided for people who want to understand or
-contribute to the ONAP documentation project.
+Las siguientes guías se proporcionan para las personas que desean comprender o contribuir al proyecto de documentación de **Don Clusterio**.
 
 .. toctree::
    :maxdepth: 1
