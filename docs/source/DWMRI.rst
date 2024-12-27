@@ -10,7 +10,7 @@ Procesamiento de Imágenes Pesadas a Difusión
 Procesar datos de imágenes de difusión es bastante complicado, y hay muchos aspectos qué vigilar para lograr obtener un análisis optimo. En esta página se describen algunas técnicas.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    DWMRI-Preprocesamiento-humanos
    DWMRI-Preprocesamiento-roedores
@@ -20,6 +20,4 @@ Procesar datos de imágenes de difusión es bastante complicado, y hay muchos as
    DWMRI-Multitensor
    DWMRI-Registro
 
-
-    * Resonador GE
 
