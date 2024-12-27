@@ -11,8 +11,10 @@ Antes de empezar, algunos detalles:
 Conversion de datos
 -------------------
 
+.. toctree::
+   :maxdepth: 2
 
-Convertir_de_DICOM_a_NIFTI
+   Convertir_de_DICOM_a_NIFTI
 
 * Convertir de DICOM a NIFTI
 * Convertir de PARREC a NIFTI
