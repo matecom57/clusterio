@@ -1,6 +1,6 @@
 
-Procesamiento Imagen
-====================
+Procesamiento Imágenes
+======================
   
 Paulina J Villaseñor edited this page Apr 24, 2024 · 12 revisions
 
