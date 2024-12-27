@@ -12,5 +12,8 @@ El Laboratorio Nacional enfocado en imagenología por resonancia magnética (Lan
    :maxdepth: 1
 
    Resonadores-Bruker
+   ------------------
    Resonadores-GE
+   --------------
    Resonadores-Philips
+   -------------------
