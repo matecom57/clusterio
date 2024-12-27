@@ -27,9 +27,6 @@ Contenido en esta página
    :backlinks: none
    :depth: 3
 
-Empecemos
-~~~~~~~~~
-
 .. _My target:
 
 MRILab Wiki
