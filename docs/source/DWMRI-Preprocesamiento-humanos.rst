@@ -11,6 +11,9 @@ Antes de empezar, algunos detalles:
 Conversion de datos
 -------------------
 
+
+Convertir_de_DICOM_a_NIFTI
+
 * Convertir de DICOM a NIFTI
 * Convertir de PARREC a NIFTI
 
