@@ -20,7 +20,7 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
     ⚠️ Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio/>`_. No hacerlo implica la desactivación de la cuenta.
 
 Contenido en esta página
-------------------------
+########################
 
 .. contents:: Tabla de contenido
    :local:
@@ -28,7 +28,7 @@ Contenido en esta página
    :depth: 3
 
 Empecemos
----------
+#########
 
 .. _My target:
 
