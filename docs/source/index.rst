@@ -18,4 +18,5 @@ Las siguientes guías se proporcionan para las personas que desean comprender o 
    fmri
    DWMRI
    fiji
+   herramientas.software
 
