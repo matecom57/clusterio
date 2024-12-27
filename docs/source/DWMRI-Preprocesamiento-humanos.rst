@@ -4,9 +4,9 @@ DWMRI: Preprocesamiento de imágenes en humanos
 Luis Concha edited this page on Jun 12 · 4 revisions
 Antes de empezar, algunos detalles:
 
-* Visita Andy's brain book para más información (y más actualizada).
+* Visita `Andy's brain book <https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Course/MRtrix_04_Preprocessing.html>`_ para más información (y más actualizada).
 
-* Lista de herramientas para preprocesamiento compilada por Ricardo Ríos.
+* `Lista de herramientas para preprocesamiento <https://hackmd.io/@c13lab/preproc>`_ compilada por Ricardo Ríos.
 
 Conversion de datos
 -------------------
