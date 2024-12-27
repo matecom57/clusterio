@@ -15,14 +15,13 @@ Conversion de datos
    :maxdepth: 2
 
    Convertir_de_DICOM_a_NIFTI
+   Convertir_de_PARREC_a_NIFTI
 
-* Convertir de DICOM a NIFTI
-* Convertir de PARREC a NIFTI
 
 Corrección de inhomogeneidades del campo magnético
 --------------------------------------------------
 
-Lo que conviene ahora es corregir los errores de movimiento y los artefactos inducidos por corrientes eddy. Existen dos versiones, la clásica es con: eddy_correct_rotbvecs.sh
+Lo que conviene ahora es corregir los errores de movimiento y los artefactos inducidos por `<corrientes eddy <https://es.wikipedia.org/wiki/Corriente_de_Foucault>`_ . Existen dos versiones, la clásica es con: eddy_correct_rotbvecs.sh
 
 Este método es anticuado y sub-óptimo, pero lo único que se puede hacer en caso de no contar con imágenes con adquisición reversa de fase. En caso de contar con ellas, entonces utilizar la opción Eddy correct revpe. Por el momento no se ha utilizado completamente esta herramienta, pero en esta página se encuentra toda la información necesaria.
 
