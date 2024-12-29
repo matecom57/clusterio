@@ -1,4 +1,5 @@
-# Bienvenidos a la MRI-lab Wiki!
+Bienvenidos a la MRI-lab Wiki!
+==============================
 
 Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. Esta página contiene el repositorio para la wiki  y herramientas de los usuarios del MRI-lab.
 
@@ -8,13 +9,17 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 
 > :warning: Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal [#don_clusterio](https://chat-lanirem.lavis.unam.mx/channel/don_clusterio). No hacerlo implica la desactivación de la cuenta.
 
-# Contenido en esta página
+Contenido en esta página
+------------------------
+
 1. [MRILab Wiki](#mrilab-wiki)
 1. [Advertencias](#advertencias)
 1. [Kit de supervivencia](#kit-de-supervivencia)
 1. [Tutoriales Avanzados](#tutoriales-avanzados)
 
-## MRILab Wiki
+MRILab Wiki
+###########
+
 Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
 
 Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
@@ -23,8 +28,11 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este [link](./Modificar-Wiki)
 
-## Advertencias
+Advertencias
+############
+
 Recuerda que el clúster es un sistema que depende de que los equipos que lo forman estén activos y en condiciones adecuadas.
+
 >  :warning:Evita **reiniciar**, **apagar** o **desmontar** los equipos que se encuentre en el clúster.
 
 >  :warning:Siempre es buena práctica hacer **Cerrar Sesión** al terminar el día.
@@ -37,7 +45,9 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
 >  :warning: Si se presenta algún problema que no esté contemplado en este wiki por favor **repórtalo al administrador** del sistema.
 
 
-## Kit de supervivencia
+Kit de supervivencia
+####################
+
 + *Aprende a buscar información*
 + [[Clúster]]. Aquí se explica cómo está organizado el cluster, cómo se utiliza y los errores más frecuentes durante su uso.
 + [Modulos](./Modules): Los módulos es una forma de cargar software a tu sesión de temrinal en el clúster. La mayoría de lso móludos están orientados a software de neuroimagen. Esta entrada explica como hacerlo.
@@ -60,11 +70,16 @@ Asuntos relacionados a imágenes pesadas adifusión, su procesamiento y tractogr
 + [[Anaconda]] Gesto de ambientes y paquetes de Python.
 
 
-## Tutoriales Avanzados
+Tutoriales Avanzados
+====================
+
 1. [Grosor Cortical](https://github.com/rcruces/MRI_analytic_tools/tree/master/Freesurfer_preprocessing), por rcruces.
 1. [Procesamiento DWI](https://github.com/rcruces/MRI_analytic_tools/tree/master/DWI_preprocessing), por rcruces.
 3. [Grosor Cortical con CIVET y FreeSurfer](https://elidom.github.io/Cortical-Thickness/), por elidom
 
-## Enlaces externos
+Enlaces externos
+################
+
 + [Enlaces Interesantes](https://github.com/c13inb/c13inb.github.io/wiki/Enlaces) con diversas herramientas.
 + [[Histología]]. Links externos con diversas herramientas.
+
