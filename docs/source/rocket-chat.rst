@@ -1,5 +1,5 @@
-Rocket.chat
-===========
+Rocket.chat-2
+=============
 
 El rocket.chat de Red-Lanirem está en la siguiente dirección: `AQUÍ <https://chat-lanirem.lavis.unam.mx>`_
 
