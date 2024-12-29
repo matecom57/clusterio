@@ -1,13 +1,15 @@
 Bienvenidos a la MRI-lab Wiki!
 ==============================
 
+`AQYÍ <https://github.com/c13inb/c13inb.github.io/wiki>`_
+
 Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. Esta página contiene el repositorio para la wiki  y herramientas de los usuarios del MRI-lab.
 
 
 
-> :star: No olvides también visitar la [wiki del Lanirem](https://github.com/lanirem/documentation/wiki/XCP-Preprocessing), donde puedes encontrar aún más información!
+> :star: No olvides también visitar la `wiki del Lanirem <https://github.com/lanirem/documentation/wiki/XCP-Preprocessing>`_, donde puedes encontrar aún más información!
 
-> :warning: Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal [#don_clusterio](https://chat-lanirem.lavis.unam.mx/channel/don_clusterio). No hacerlo implica la desactivación de la cuenta.
+> :warning: Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio>`_. No hacerlo implica la desactivación de la cuenta.
 
 Contenido en esta página
 ------------------------
