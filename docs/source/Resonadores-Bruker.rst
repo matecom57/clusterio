@@ -1,23 +1,27 @@
 Bruker Biospec 70/16
+====================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
 
 
 Algunos datos sobre el resonador:
-* Bruker Biospec 70/16: 70 porque es un 7 Tesla, y 16 porque su túnel tiene 16 cm de diámetro.
-* El resonador tiene un magneto  [Pharmascan](https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE), sin embargo toda la electrónica y los gradientes son de un [Biospec](https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE). Por lo tanto, el resonador es _de facto_ un Biospec.
+
+- Bruker Biospec 70/16: 70 porque es un 7 Tesla, y 16 porque su túnel tiene 16 cm de diámetro.
+
+- El resonador tiene un magneto  [Pharmascan](https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE), sin embargo toda la electrónica y los gradientes son de un [Biospec](https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE). Por lo tanto, el resonador es _de facto_ un Biospec.
 
 
 La transferencia de los datos se puede realizar en varios formatos:
 
-* Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige `convert to Dicom`. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos opciones: Los sacas directamente del resonador usando una USB, o los sacas usando `/misc` (ver adelante).
-* Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando [mrconvert](https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html) de Mrtrix3, o [dcm2niix](https://github.com/rordenlab/dcm2niix).
+- Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige `convert to Dicom`. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos opciones: Los sacas directamente del resonador usando una USB, o los sacas usando ``/misc`` (ver adelante).
+
+- Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando `mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o `dcm2niix <https://github.com/rordenlab/dcm2niix>`_.
 
 
 ***
 
-## Como exportar mis datos desde el Bruker
-
+Como exportar mis datos desde el Bruker
+---------------------------------------
 
 Los datos que se almacenan en el bruker estan en ruta `/misc/bruker7/data01/` o `/misc/bruker7/data02/` al cual podemos acceder de la siguiente manera: 
 
