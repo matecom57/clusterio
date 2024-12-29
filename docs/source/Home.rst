@@ -19,8 +19,8 @@ Contenido en esta página
 
 	MRILab Wiki
 	Advertencias
-	kit-de-supervivencia)
-	tutoriales-avanzados)
+	Kit de supervivencia
+	Tutoriales Avanzados
 
 MRILab Wiki
 -----------
@@ -34,7 +34,7 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este [link](./Modificar-Wiki)
 
 Advertencias
-------------#
+------------
 
 Recuerda que el clúster es un sistema que depende de que los equipos que lo forman estén activos y en condiciones adecuadas.
 
@@ -51,7 +51,7 @@ Recuerda que el clúster es un sistema que depende de que los equipos que lo for
 
 
 Kit de supervivencia
-####################
+--------------------
 
 + *Aprende a buscar información*
 + [[Clúster]]. Aquí se explica cómo está organizado el cluster, cómo se utiliza y los errores más frecuentes durante su uso.
@@ -76,7 +76,8 @@ Asuntos relacionados a imágenes pesadas adifusión, su procesamiento y tractogr
 
 
 Tutoriales Avanzados
-====================
+--------------------
+
 
 1. [Grosor Cortical](https://github.com/rcruces/MRI_analytic_tools/tree/master/Freesurfer_preprocessing), por rcruces.
 1. [Procesamiento DWI](https://github.com/rcruces/MRI_analytic_tools/tree/master/DWI_preprocessing), por rcruces.
