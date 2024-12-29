@@ -7,17 +7,19 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 
 
 
-> :star: No olvides también visitar la `wiki del Lanirem <https://github.com/lanirem/documentation/wiki/XCP-Preprocessing>`_, donde puedes encontrar aún más información!
+:star: No olvides también visitar la `wiki del Lanirem <https://github.com/lanirem/documentation/wiki/XCP-Preprocessing>`_, donde puedes encontrar aún más información!
 
 > :warning: Todo usuario del cluster Don Clusterio debe estar inscrito en la Red Lanirem en el canal `#don_clusterio <https://chat-lanirem.lavis.unam.mx/channel/don_clusterio>`_. No hacerlo implica la desactivación de la cuenta.
 
 Contenido en esta página
 ------------------------
 
-1. [MRILab Wiki](#mrilab-wiki)
-1. [Advertencias](#advertencias)
-1. [Kit de supervivencia](#kit-de-supervivencia)
-1. [Tutoriales Avanzados](#tutoriales-avanzados)
+.. contents:: Local table of contents
+
+	MRILab Wiki
+	advertencias
+	kit-de-supervivencia)
+	tutoriales-avanzados)
 
 MRILab Wiki
 ###########
