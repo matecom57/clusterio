@@ -14,10 +14,10 @@ La wiki esta escrita en lenguaje Markdown. Es muy simple de aprender y utilizar.
 
 Algunas reglas básicas para la organización de la Wiki:
 
-- Si trabajas de forma local el archivo del markdown sera el titulo de tu entrada en la wiki. Dale un nombre descriptivo. No usar ``\ / : * ? " < > |` para que no haya conflictos en copias locales en algunos sistemas operativos *cough cough* windows *cough cough*.
+- Si trabajas de forma local el archivo del markdown sera el titulo de tu entrada en la wiki. Dale un nombre descriptivo. No usar ``\ / : * ? " < > |`` para que no haya conflictos en copias locales en algunos sistemas operativos *cough cough* windows *cough cough*.
 
 - Si quieres que tu pagina aparezca en la sidebar de la derecha necesitas modificar el archivo _Sidebar (si estas usando el repo de manera local). En la interfaz web basta con apretar en el botón editar en "Tabla de contenidos".
 
-- Si tu entrada en la wiki pertenece a una subcategoría empieza su titulo con dicha categoría, posteriormente ``_`` y luego el nombre de tu entrada. Ejemplo> `Categoria_mientrada.md``
+- Si tu entrada en la wiki pertenece a una subcategoría empieza su titulo con dicha categoría, posteriormente ``_`` y luego el nombre de tu entrada. Ejemplo: ``Categoria_mientrada.md``
 
 - Si ves algo que ya esta super outdated échanos la mano y dale una editada a la entrada que estas revisando. De manera local modificas el archivo (son sus subsecuente `git push`). En la interfaz web basta con con el botón Edit.
