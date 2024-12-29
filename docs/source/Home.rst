@@ -23,7 +23,7 @@ Contenido en esta página
 	tutoriales-avanzados)
 
 MRILab Wiki
-###########
+-----------
 
 Este wiki intenta facilitar el uso del clúster y las máquinas que lo forman. Cualquier persona puede consultar la wiki desde una computadora con acceso a internet.
 
@@ -34,7 +34,7 @@ Te invitamos a apoyar el desarrollo de esta wiki de las siguientes formas:
 Si deseas colaborar en esta wiki es necesario tener una cuenta de github y ser colaborador de este repositorio-wiki. Mas info en este [link](./Modificar-Wiki)
 
 Advertencias
-############
+------------#
 
 Recuerda que el clúster es un sistema que depende de que los equipos que lo forman estén activos y en condiciones adecuadas.
 
