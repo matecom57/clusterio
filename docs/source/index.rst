@@ -1,6 +1,6 @@
 
 
-Guías de documentación-3
+Guías de documentación-4
 ======================
 
 `AQUí <https://github.com/c13inb/c13inb.github.io/wiki>`_
@@ -9,7 +9,6 @@ Las siguientes guías se proporcionan para las personas que desean comprender o 
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
    home1
    Modificar-Wiki
