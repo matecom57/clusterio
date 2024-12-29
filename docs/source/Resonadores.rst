@@ -8,6 +8,6 @@ El Laboratorio Nacional enfocado en imagenología por resonancia magnética (`La
 .. toctree::
    :maxdepth: 2
 
-1. [Bruker Biospec 70/16 (7 T)permisos](./Resonadores:Bruker)
-2. [General Electric Discovery MR750 (3 T)](./Resonadores:GE)
-3. [Philips Achieva TX (3 T)](./Resonadores:Philips)
+   Resonadores-Bruker
+   Resonadores-GE
+   Resonadores-Philips
