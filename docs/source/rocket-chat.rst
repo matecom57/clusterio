@@ -1,4 +1,4 @@
-Rocket.chat-2
+Rocket.chat-3
 =============
 
 El rocket.chat de Red-Lanirem está en la siguiente dirección: `AQUÍ <https://chat-lanirem.lavis.unam.mx>`_
@@ -9,7 +9,7 @@ El rocket.chat de Red-Lanirem está en la siguiente dirección: `AQUÍ <https://
    :local:
 
 Crear nueva cuenta
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Si es la primera vez que nos visitas, crea una nueva cuenta (*Register a new account*):
 
@@ -22,7 +22,7 @@ Si no quieres instalar las aplicaciones, puedes usar rocket.chat directamente en
 
 
 Conceptos básicos
-~~~~~~~~~~~~~~~~~
+-----------------
 
 La comunicación en rocket.chat se da en *canales*. Los canales pueden ser privados o públicos; en el caso de los privados, deberás ser invitado por la persona que administra el canal. Todos los usuarios están inscritos en los canales #general y #journalclub. El resto de los canales pueden variar entre usuarios. Aquí un ejemplo:
 
@@ -45,19 +45,19 @@ Los usuarios pueden ser *mencionados*, antecediendo su nombre con `@`. Esto perm
 
 
 Preferencias
-~~~~~~~~~~~~
+------------
 
 Para personalizar tu experiencia en rocket.chat, da clic en tu avatar, en la esquina superior izquierda. Si no lo has cambiado, tu avatar es una letra de tu nombre, con un fondo colorido. Se abrirá un menú, y ve a `Mi Cuenta`. Esta comunidad es segura, así que en la pestaña `Perfil` dinos tu nombre completo, una biografía, tu apodo (si quieres), etc. En la pestaña `Preferencias` podrás cambiar el idioma del programa, y muchas otras cosas.
 
 Notificaciones
-~~~~~~~~~~~~~~
+--------------
 
 En la pestaña `Preferencias` encontrarás la sección de `Notificaciones`. Si instalaste la aplicación en tu teléfono, puedes controlar las notificaciones *push*. La opción *Todos los mensajes* es el default, pero puedes cambiar a *menciones*, y solo recibirás notificaciones si fuiste mencionada/o. Sería triste que lo hicieras, pero puedes elegir *Nada*. 
 
 Si no usas la aplicación móvil pero no quieres estar fuera de la jugada, puedes usar el correo electrónico como sistema de notificaciones, en las opciones *Notificaciones por correo electrónico fuera de línea*. Igual, puedes elegir todo, menciones, o nada (:cry:).
 
 Destacados
-~~~~~~~~~~
+----------
 
 Si tienes un especial interés en palabras clave, puedes ponerlas aquí. Si esas palabras son usadas en cualquier canal en el que estés, recibirás una notificación. Ejemplos de palabras clave son *cancelado, descompuesto, publicado, fiesta*, etc.
 
