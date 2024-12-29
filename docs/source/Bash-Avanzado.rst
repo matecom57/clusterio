@@ -1,4 +1,8 @@
-## [Permisos](./Bash:-Permisos) ##
+Bash Avanzado
+=============
+
+:doc:`Permisos <Bash-Permisos>`
+
 Los permisos de archivos determinan los usuarios que pueden interactuar con éstos. Quién puede modificar, borrar o mover los mismos.
 
 ## [Comprimir](./Bash:-Comprimir) ##

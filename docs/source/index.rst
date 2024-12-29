@@ -14,3 +14,4 @@ Las siguientes guías se proporcionan para las personas que desean comprender o 
    Modificar-Wiki
    rocket-chat
    Resonadores
+   Bash
