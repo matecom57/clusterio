@@ -8,5 +8,5 @@ Las siguientes guías se proporcionan para las personas que desean comprender o 
 .. toctree::
    :maxdepth: 2
 
-   Home
+   home1
 
