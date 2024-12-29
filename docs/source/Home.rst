@@ -14,7 +14,8 @@ Bienvenido a la wiki del **Laboratorio de Imágenes de Resonancia Magnética**. 
 Contenido en esta página
 ------------------------
 
-.. contents:: Local table of contents
+.. contents::
+   :backlinks: none
 
 	MRILab Wiki
 	Advertencias
