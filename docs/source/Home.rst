@@ -17,7 +17,7 @@ Contenido en esta página
 .. contents:: Local table of contents
 
 	MRILab Wiki
-	advertencias
+	Advertencias
 	kit-de-supervivencia)
 	tutoriales-avanzados)
 
