@@ -68,8 +68,37 @@ mod terminal uno debe presional al mismo tiempo las teclas: ``CTR-ALT-T`` al est
 
    (base) santosg@penfield:~$ 
 
+En el ejemplo anterior, se destaca dos cosas interesantes, la primera es que desde mi casa utilice el comando ``ssh``
+para entrar a **Don Clusterio**:
 
-xx
+.. code-block: Bash
+
+   ssh santosg@penfield.inb.unam.mx
+
+la otra cosa muestra la linea:
+
+.. code-block: Bash
+
+   (base) santosg@penfield:~$
+
+donde:
+
+**santosg** - es mi usuario
+
+**penfield** - es el nombre de la maquina donde enntre
+
+Lo importante es el simbolo ``$`` que representa que estoy interactuando con el programa ``bash``.
+
+``bash`` es el programa que sirve como interface entre el usuario y el Sistema Operativo y todo el software que contiene **Don Clusterio** y
+el simbolo ``$`` espera ordenes de nosotros (``comandos``) que se ejecutaran.
+
+``bash`` es la interface y tambien es un lenguaje de programacion, donde hay constantes, variables, estructura de control, etc..
+
+  
+
+ 
+
+
 
    
 
