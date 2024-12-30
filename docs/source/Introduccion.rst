@@ -3,9 +3,12 @@ Introducción
 
 **Don Clusterio** es una red de computadoras de escritorio identificadas por su **nombre** y su correspondiente número identificador ``IP``.
 Todas estas maquinas tienen instalado el Sistema Operativo Linux UBUNTU V22, y el software necesario para que todas las maquinas trabajen 
-de manera distribuida y paralela. Para que se realice el trabajo conjunto de Don Clusterio tiene los Softwares: NIS, NFS y SGE.
+de manera distribuida y paralela. Para que Don Clusterio trabaje en optimas condiciones se tiene instalado en cada maquina:
+`NIS <https://es.wikipedia.org/wiki/Network_Information_Service>` , `NFS <https://www.site24x7.com/es/learn/linux/nfs-troubleshooting.html>` y 
+`SGE <https://es.wikipedia.org/wiki/Sun_Grid_Engine>`.
 
-Para utilizar los recursos de Don Clusterio, cada usuario debe tener una cuenta en ```Rocket-Chat`` y tener una ``cuenta de usuario```en el Sistema UBUNTU.
+Para utilizar los recursos de Don Clusterio, cada usuario debe tener una cuenta en ``Rocket-Chat`` y tener una ``cuenta de usuario```en el 
+Sistema UBUNTU.
 
 Al crear una cuenta de usuario, se crean dos folder, uno de manera automatica llamado ``HOME`` (path absoluto: ``/home/<usuario>`` donde
 ``<usuario>`` es el usuario creado, en este folder no ocupar mas de ``30 GB``, el otro folder es ```/mis/<maquina>/<usuario>`` donde ``<maquina>``
@@ -87,12 +90,14 @@ donde:
 
 **penfield** - es el nombre de la maquina donde enntre
 
-Lo importante es el simbolo ``$`` que representa que estoy interactuando con el programa ``bash``.
+El simbolo ``$`` representa que estoy interactuando con el programa ``bash``.
 
-``bash`` es el programa que sirve como interface entre el usuario y el Sistema Operativo y todo el software que contiene **Don Clusterio** y
+
+* ``bash`` es el programa que sirve como interface entre el usuario y el Sistema Operativo y todo el software que contiene **Don Clusterio** y
 el simbolo ``$`` espera ordenes de nosotros (``comandos``) que se ejecutaran.
 
-``bash`` es la interface y tambien es un lenguaje de programacion, donde hay constantes, variables, estructura de control, etc..
+* ``bash`` Es un lenguaje de programacion, donde hay constantes, variables, estructura de control, etc..
+
 
   
 
