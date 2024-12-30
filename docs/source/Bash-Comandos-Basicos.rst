@@ -5,12 +5,12 @@ man = manual
 ____________
 
 
-La gran mayoria de los comandos vienen con un manual de uso, para acceder a estos hay que utilizar `man` y despues escribir el nombre del comando que quieres aprender a usar:
+La gran mayoria de los comandos vienen con un manual de uso, para acceder a estos hay que utilizar ``man`` y despues escribir el nombre del comando que quieres aprender a usar:
 
 
 .. code-block: console
    
-   $ man echo
+   man echo
 
    NAME
 
