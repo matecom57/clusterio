@@ -7,7 +7,7 @@ de manera distribuida y paralela. Para que Don Clusterio trabaje en optimas cond
 `NIS <https://es.wikipedia.org/wiki/Network_Information_Service>` , `NFS <https://www.site24x7.com/es/learn/linux/nfs-troubleshooting.html>` y 
 `SGE <https://es.wikipedia.org/wiki/Sun_Grid_Engine>`.
 
-Para utilizar los recursos de Don Clusterio, cada usuario debe tener una cuenta en ``Rocket-Chat`` y tener una ``cuenta de usuario```en el 
+Para utilizar los recursos de Don Clusterio, cada usuario debe tener una cuenta en ``Rocket-Chat`` y tener una ``cuenta de usuario`` en el 
 Sistema UBUNTU.
 
 Al crear una cuenta de usuario, se crean dos folder, uno de manera automatica llamado ``HOME`` (path absoluto: ``/home/<usuario>`` donde
