@@ -20,7 +20,7 @@ Organización de datos en el clúster
 
 La más importante a conocer acerca de como guardar tus datos usando tu usuario en el clúster:
 
-+ Folder del usuario `/home <Cluster_Folder_usuario_home>`_
++ Folder del usuario :doc:`/home <Cluster_Folder_usuario_home>`
 
 + Folder de almacenamiento [/misc](./Clúster:-Folder-almacenamiento-(misc))
 
