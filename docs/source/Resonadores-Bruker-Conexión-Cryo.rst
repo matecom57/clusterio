@@ -1,10 +1,15 @@
+Resonadores:Bruker: Conexión Cryo
+=================================
+
 Desconexión de la antena de superficie 2x2 y conexión de la antena cryo.
 
 1.- En caso de que el anterior usuario haya utilizado la antena de superficie 2x2, será necesario desconectar todos los elementos mencionados a continuación:
 
-* a) El conector con el punto naranja de la antena de superficie conectado en la entrada con el punto café.
-* b) El conector con el punto gris y cable de cordón de la antena de volumen (T/R), conectado a la entrada sin cobertura.
-* c) El conector del amplificador con el punto rojo, que surge del resonador conectado a la entrada con el punto rojo.
+a) El conector con el punto naranja de la antena de superficie conectado en la entrada con el punto café.
+
+b) El conector con el punto gris y cable de cordón de la antena de volumen (T/R), conectado a la entrada sin cobertura.
+
+c) El conector del amplificador con el punto rojo, que surge del resonador conectado a la entrada con el punto rojo.
 
 2.- Una vez desconectada la antena de superficie, traccionar el cable de la misma para extraerla por el túnel del resonador hacia la parte posterior, cuidando la presencia de resistencias u obstáculos. Igualmente, desconectar el tubo de la anestesia (tubo de plástico translúcido) del marco de soporte para escanear a la rata y retraerlo hacia la parte posterior del resonador.
 
@@ -16,7 +21,7 @@ Desconexión de la antena de superficie 2x2 y conexión de la antena cryo.
 
 6.- Luego se busca el cable de la antena cryo {ubicado en la parte posterior del resonador, a un costado de la plataforma de conectores del resonador (espacio vacío a la izquierda)}. Este cable tiene un conector con un punto rojo y se conecta en la entrada con cubierta con punto rojo.
 
-[[images/cryo.png]]
+.. image:: cryo.png
 
 7.- Entonces, se quita la cubierta metálica ubicada al centro de la compuerta posterior del resonador y se cierra esta compuerta.
 

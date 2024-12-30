@@ -1,7 +1,11 @@
-## AWK ##
+Bash:AWK
+========
+
 AWK es un lenguaje de programación diseñado para procesar datos basados en texto, ya sean ficheros o flujos de datos.
 
-## Estructura de awk ##
+Estructura de ``awk``
+--------------------
+
 **awk** bla bla bla bla bla pendiente
 
 blablablabla blablablabla

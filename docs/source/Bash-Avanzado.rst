@@ -5,23 +5,30 @@ Bash Avanzado
 
 Los permisos de archivos determinan los usuarios que pueden interactuar con éstos. Quién puede modificar, borrar o mover los mismos.
 
-## [Comprimir](./Bash:-Comprimir) ##
-Este comando te sirve para disminuir el tamaño de los archivos que se manejan en el clúster se puede utilizar el formato __TAR__ comprimido por __gzip__.
+:doc:`Comprimir <Bash-Comprimir>`
 
-## [Variables](./Bash:-Variables) ##
+Este comando te sirve para disminuir el tamaño de los archivos que se manejan en el clúster se puede utilizar el formato ``TAR`` comprimido por ``gzip``.
+
+:doc:`Variables <Bash-Variables>`
+
 El manejo de variables es fundamental para la programación y bash scripting no es la excepción. Aquí te explico más.
 
-## [Bucles/Loops](./Bash:-Loops) ##
-Los comandos `for`, `while` y otros te permiten repetir una misma tarea tantas veces lo requieras y son altamente efectivas para automatizar procesos. En esta entrada hay ejemplos.
+:doc:`Bucles/Loops <Bash-Loops>`
 
-## [Funciones](./Bash:-Funciones) ##
+Los comandos ``for``, ``while`` y otros te permiten repetir una misma tarea tantas veces lo requieras y son altamente efectivas para automatizar procesos. En esta entrada hay ejemplos.
 
-## [Comando `sed`](./Bash:-sed) ##
+Funciones
+---------
 
-## [Comando `grep`](./Bash:-grep) ##
-El comando `grep` es una herramienta muy poderosas para búsqueda y otros procesos en linux.
+:doc:`Comando sed <Bash-sed>`
 
-## [AWK Programming Language](./Bash:-AWK) ##  
+Comando `grep`
+--------------
+
+El comando ``grep`` es una herramienta muy poderosas para búsqueda y otros procesos en linux.
+
+:doc:`AWK Programming Language <Bash:-AWK>`  
+
 El lenguaje `awk` permite procesar datos de texto y numeros con decimales (de punto flotante). Aquí encontraras ejemplos prácticos para el procesamiento de imágenes con bash.
 
 ## [Gestión de procesos](./Bash:-Gestión-de-procesos) ##

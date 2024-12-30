@@ -20,4 +20,4 @@ Algunas reglas básicas para la organización de la Wiki:
 
 - Si tu entrada en la wiki pertenece a una subcategoría empieza su titulo con dicha categoría, posteriormente ``_`` y luego el nombre de tu entrada. Ejemplo: ``Categoria_mientrada.md``
 
-- Si ves algo que ya esta super outdated échanos la mano y dale una editada a la entrada que estas revisando. De manera local modificas el archivo (son sus subsecuente `git push`). En la interfaz web basta con con el botón Edit.
+- Si ves algo que ya esta super outdated échanos la mano y dale una editada a la entrada que estas revisando. De manera local modificas el archivo (son sus subsecuente ``git push``). En la interfaz web basta con con el botón Edit.

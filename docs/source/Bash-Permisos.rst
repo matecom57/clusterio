@@ -29,7 +29,7 @@ En el recuadro rojo vemos los permisos donde:
 
 Pero vemos que hay una separación con  ``-` entre permisos, esto se refiere quien y quienes son los que tienen permisos aquí, es decir: 
 
-.. image:: Desktop/ls_imagen_2.png
+.. image:: ls_imagen_2.png
 
 * Rectangulo amarillo son tus permisos como usuario (paulinav) 
 
@@ -77,7 +77,7 @@ La sintaxis de ``chmod`` se basa en el "quién", "qué" y "cúal" dar los permis
 
 Por ejemplo, si yo creo un nuevo script, no lo voy a poder ejecturar inmediatamente, necesitaré cambiar los permisos de tal manera que pueda ser ejecutado:
 
-.. code-block: Bash
+.. code-block:: Bash
 
    $ chmod a+x mi_script.sh
 
@@ -87,13 +87,13 @@ Donde estoy especificando que ``mi_script.sh`` pueda ser ejecutado (``x``) por c
 
 También puedes asignar el grupo ya sea fmriuser o bioinfo a una carpeta, subcarpetas y los archivos que contenga, se puede usar el comando:
 
-.. code-block: Bash
+.. code-block:: Bash
 
    $ chown -R usuario:grupo carpeta/
 
 Y para permitir escritura y lectura al grupo usas:
 
-.. code-block: Bash
+.. code-block:: Bash
 
    $chmod -R g+rwx carpeta/
 
