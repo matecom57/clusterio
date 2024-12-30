@@ -1,3 +1,6 @@
+Almacenamiento
+==============
+
 En principio en la carpeta __/misc__ , que se encuentra en la raíz de todos los equipos, se encuentran carpetas con los nombres de los equipos y por lo tanto con acceso a cada uno de ellos.
 
 Por ejemplo, la carpeta __/misc/tanner__ se encuentra físicamente en el equipo __tanner__, pero se encuentra disponible desde cualquier equipo que forme parte del clúster.

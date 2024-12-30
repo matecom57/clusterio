@@ -53,7 +53,7 @@ En el caso de los equipos que forma parte del clúster, el directorio home se en
 Y ¿qué debo escribir?
 ---------------------
 
-Es importate señalar, que debido a la configuración de `respaldo](./Cluster:-Respaldo-de-datos) y [almacenamiento](./Cluster:-Folder-almacenamiento-(misc)) del clúster, es recomendable que en la carpeta home no se coloquen archivos de gran tamaño, dando preferencía a archivos como scripts, archivos de configuración, documentos. En el caso de requrir guardar archivos que se consideren grandes y que no se deseen respaldar se puede recurrir al uso de la carpeta [temporal](./Cluster:-Folder-temporal-(tmp)) o una carpeta con el título nobackup (revisar [almacenamiento](./Cluster:-Folder-almacenamiento-(misc))).
+Es importate señalar, que debido a la configuración de `respaldo <Cluster-Respaldo-de-datos>` y [almacenamiento](./Cluster:-Folder-almacenamiento-(misc)) del clúster, es recomendable que en la carpeta home no se coloquen archivos de gran tamaño, dando preferencía a archivos como scripts, archivos de configuración, documentos. En el caso de requrir guardar archivos que se consideren grandes y que no se deseen respaldar se puede recurrir al uso de la carpeta `temporal <Cluster-Folder-temporal-tmp>` o una carpeta con el título nobackup (revisar `almacenamiento <Cluster-Folder-almacenamiento-misc>`.
 
 ## Qué otras cosas hay en `$HOME`?
 En esa carpeta suelen vivir todos los archivos de configuración y cache del usuario. Ojo, que ésto puede llegar a crecer mucho, sobre todo por el cache de google-chrome. Se recomienda vaciar el cache del navegador cada par de meses para evitar tener demasiados archivos.
