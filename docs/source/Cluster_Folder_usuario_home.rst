@@ -1,41 +1,59 @@
-## ¿Qué es el Home?
+Clúster: Folder usuario (home)
+==============================
+
+¿Qué es el Home?
+----------------
+
 
 El home es un espacio que pertenece a cada usuario, es el lugar dónde nos encontramos al iniciar sesión. Suele tener permisos de __escritura/lectura__ exclusivos para el usuario al que pertenece. También aquí suelen residir los archivos de configuración exclusivos para el usuario.
 
-## ¿Dónde está?
+¿Dónde está?
+------------
 
 En la estructura de los sistemas **Unix** suelen encontrarse en la dirección
 
-     /home/usuario
+.. code-block:: Bash
+
+   /home/usuario
 
 Pero en el clúster del laboratorio, la ruta correcta es:
 
-    /home/inb/usuario
+.. code-block:: Bash
+
+   /home/inb/usuario
 
 Donde usuario es sustituido por el usuario en curso. Se puede acceder mediante:
 
-#### Ruta absoluta
+Ruta absoluta
+-------------
 
-     cd /home/inb/usuario
+.. code-block:: Bash
 
-#### Ruta con "wildcard" (comodín)
+   cd /home/inb/usuario
 
-    cd ~/
+Ruta con ``wildcard`` (comodín)
+-----------------------------
 
-#### También nos podemos trasladar usando el comando cd sin argumentos
+.. code-block:: Bash
 
-    cd
+   cd ~/
 
-O sea, los tres formatos del comando **cd** tienen la misma función.
+También nos podemos trasladar usando el comando cd sin argumentos
+-----------------------------------------------------------------
+
+.. code-block:: Bash
+    
+   cd
+
+O sea, los tres formatos del comando ``cd`` tienen la misma función.
 
 En el caso de los equipos que forma parte del clúster, el directorio home se encuentra físicamente en el servidor central.
 
 
+Y ¿qué debo escribir?
+---------------------
 
-
-## Y ¿qué debo escribir?
-
-Es importate señalar, que debido a la configuración de [respaldo](./Cluster:-Respaldo-de-datos) y [almacenamiento](./Cluster:-Folder-almacenamiento-(misc)) del clúster, es recomendable que en la carpeta home no se coloquen archivos de gran tamaño, dando preferencía a archivos como scripts, archivos de configuración, documentos. En el caso de requrir guardar archivos que se consideren grandes y que no se deseen respaldar se puede recurrir al uso de la carpeta [temporal](./Cluster:-Folder-temporal-(tmp)) o una carpeta con el título nobackup (revisar [almacenamiento](./Cluster:-Folder-almacenamiento-(misc))).
+Es importate señalar, que debido a la configuración de `respaldo](./Cluster:-Respaldo-de-datos) y [almacenamiento](./Cluster:-Folder-almacenamiento-(misc)) del clúster, es recomendable que en la carpeta home no se coloquen archivos de gran tamaño, dando preferencía a archivos como scripts, archivos de configuración, documentos. En el caso de requrir guardar archivos que se consideren grandes y que no se deseen respaldar se puede recurrir al uso de la carpeta [temporal](./Cluster:-Folder-temporal-(tmp)) o una carpeta con el título nobackup (revisar [almacenamiento](./Cluster:-Folder-almacenamiento-(misc))).
 
 ## Qué otras cosas hay en `$HOME`?
 En esa carpeta suelen vivir todos los archivos de configuración y cache del usuario. Ojo, que ésto puede llegar a crecer mucho, sobre todo por el cache de google-chrome. Se recomienda vaciar el cache del navegador cada par de meses para evitar tener demasiados archivos.

@@ -1,20 +1,29 @@
+Clúster
+=======
+
 El término clúster (del inglés cluster, "grupo" o "racimo") se aplica a los conjuntos o conglomerados de computadoras construidos mediante la utilización de hardwares comunes y que se comportan como si fuesen una única computadora.
 
 **El clúster de cómputo del INB se llama `Don Clusterio`.**
 
 
-# Cambio de contraseña (password):
+Cambio de contraseña (password):
+--------------------------------
+
 Cada usuario puede cambiar su contraseña, y es recomendable hacerlo con cierta periodicidad. Utiliza una contraseña fuerte, que use letras mayúsculas y minúsculas, números y caracteres especiales. 
 
-Para cambiar tu contraseña, usa el comando `yppasswd`.
+Para cambiar tu contraseña, usa el comando ``yppasswd``.
 
-:information_source: Hay un periodo de aproximadamente 5 min para que tu nueva contraseña se propague a todas las computadoras del cluster.
+Hay un periodo de aproximadamente 5 min para que tu nueva contraseña se propague a todas las computadoras del cluster.
 
-## Organización de datos en el clúster
+Organización de datos en el clúster
+-----------------------------------
 
 La más importante a conocer acerca de como guardar tus datos usando tu usuario en el clúster:
-+ Folder del usuario [/home](./Clúster:-Folder-usuario-(home))
+
++ Folder del usuario `/home <Cluster_Folder_usuario_home>`_
+
 + Folder de almacenamiento [/misc](./Clúster:-Folder-almacenamiento-(misc))
+
 + Folder temporal [/tmp](./Clúster:-Folder-temporal-(tmp))
 
 ## Respaldo de datos

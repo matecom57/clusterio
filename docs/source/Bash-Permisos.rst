@@ -27,7 +27,7 @@ En el recuadro rojo vemos los permisos donde:
 ``x``: execute permissions, esto aplica para poder ejecutar scripts principalmente (más abajo explico como).
 
 
-Pero vemos que hay una separación con  ``-` entre permisos, esto se refiere quien y quienes son los que tienen permisos aquí, es decir: 
+Pero vemos que hay una separación con  ``-`` entre permisos, esto se refiere quien y quienes son los que tienen permisos aquí, es decir: 
 
 .. image:: ls_imagen_2.png
 

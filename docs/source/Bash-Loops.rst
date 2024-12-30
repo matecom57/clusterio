@@ -2,6 +2,7 @@ Bash: Loops
 ===========
 
 Iteración de comandos con ``for``
+---------------------------------
 
 ``for`` es un comando poderoso que permite repetir un comando en varios archivos. La traducción de for sería:
 
