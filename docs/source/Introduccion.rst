@@ -71,13 +71,13 @@ mod terminal uno debe presional al mismo tiempo las teclas: ``CTR-ALT-T`` al est
 En el ejemplo anterior, se destaca dos cosas interesantes, la primera es que desde mi casa utilice el comando ``ssh``
 para entrar a **Don Clusterio**:
 
-.. code-block: Bash
+.. code-block:: Bash
 
    ssh santosg@penfield.inb.unam.mx
 
 la otra cosa muestra la linea:
 
-.. code-block: Bash
+.. code-block:: Bash
 
    (base) santosg@penfield:~$
 
