@@ -1,6 +1,6 @@
 
 
-Guías de documentación-4
+Guías de documentación
 ======================
 
 `AQUí <https://github.com/c13inb/c13inb.github.io/wiki>`_
@@ -8,6 +8,7 @@ Guías de documentación-4
 Las siguientes guías se proporcionan para las personas que desean comprender o contribuir al proyecto de documentación de **Don Clusterio**.
 
 .. toctree::
+   :numbered:
    :maxdepth: 2
 
    Introduccion
