@@ -4,8 +4,10 @@ Introducción
 **Don Clusterio** es una red de computadoras de escritorio identificadas por su **nombre** y su correspondiente número identificador ``IP``.
 Todas estas maquinas tienen instalado el Sistema Operativo Linux UBUNTU V22, y el software necesario para que todas las maquinas trabajen 
 de manera distribuida y paralela. Para que Don Clusterio trabaje en optimas condiciones se tiene instalado en cada maquina:
-`NIS <https://es.wikipedia.org/wiki/Network_Information_Service>` , `NFS <https://www.site24x7.com/es/learn/linux/nfs-troubleshooting.html>` y 
-`SGE <https://es.wikipedia.org/wiki/Sun_Grid_Engine>`.
+`NIS <https://es.wikipedia.org/wiki/Network_Information_Service>`_ , `NFS <https://www.site24x7.com/es/learn/linux/nfs-troubleshooting.html>`_ y 
+`SGE <https://es.wikipedia.org/wiki/Sun_Grid_Engine>`_.
+
+.. image:: clusterio.png
 
 Para utilizar los recursos de Don Clusterio, cada usuario debe tener una cuenta en ``Rocket-Chat`` y tener una ``cuenta de usuario`` en el 
 Sistema UBUNTU.
