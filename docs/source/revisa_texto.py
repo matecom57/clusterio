@@ -52,13 +52,14 @@ while i < nl:
 #    print(s1)
     s2 = dd[k2+2:k3]
 #    print(s2)
-    if 'https' in s2:
+    if 'http' in s2:
       sal = sal +dd[0:k1-1] + ' `' + s1 + '<' + s2 + '>`_' + dd[k3+1:]
     elif './' in s2:
       s2 = s2[2:]
       s2 = s2.replace('ú', 'u')
       s2 = s2.replace(':-', '-')
-      sal = sal +dd[0:k1-1] + ' `' + s1 + '<' + s2 + '>`' + dd[k3+1:]
+      s2 = s2.replace(':', '-')
+      sal = sal +dd[0:k1-1] + ' `' + s1 + ' <' + s2 + '>`' + dd[k3+1:]
     else:
       sal = sal +dd[0:k1-1] + ' `' + s1 + 'xxxx' + s2 + 'xxx' + dd[k3+1:]
   else:
