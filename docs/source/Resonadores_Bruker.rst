@@ -14,7 +14,7 @@ La transferencia de los datos se puede realizar en varios formatos:
 
 * Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to Dicom. 
 Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos 
-opciones: Los sacas directamente del resonador usando una USB, o los sacas usando /misc (ver adelante).
+opciones: Los sacas directamente del resonador usando una USB, o los sacas usando ``/misc`` (ver adelante).
 
 
 * Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando 
