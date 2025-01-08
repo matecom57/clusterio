@@ -27,14 +27,15 @@ Conceptos básicos
 
 La comunicación en rocket.chat se da en *canales*. Los canales pueden ser privados o públicos; en el caso de los privados, deberás ser invitado por la persona que administra el canal. Todos los usuarios están inscritos en los canales #general y #journalclub. El resto de los canales pueden variar entre usuarios. Aquí un ejemplo:
 
-![](https://i.imgur.com/REBLT7a.png `![<https://i.imgur.com/REBLT7a.png>`_
+
+.. image:: canales.png
 
 :information_source: Para ver la lista de canales disponibles para tí, utiliza el ícono del mundo que está hasta arriba.
 
 Para escribir, utiliza la caja hasta abajo de la página. En esa página puedes usar texto simple, o utilizar negritas, cursivas, emojis, y hasta código y fórmulas matemáticas. 
 
 
-.. image:: canales.png
+.. image:: rocker.png
 
 
 
