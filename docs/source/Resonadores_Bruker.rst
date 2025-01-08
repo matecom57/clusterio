@@ -12,7 +12,14 @@ Algunos datos sobre el resonador:
 
 La transferencia de los datos se puede realizar en varios formatos:
 
-* Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando `mrconvert<https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o [dcm2niix](https://github.com/rordenlab/dcm2niix).
+* Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to Dicom. 
+Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos 
+opciones: Los sacas directamente del resonador usando una USB, o los sacas usando /misc (ver adelante).
+
+
+* Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando 
+`mrconvert<https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o 
+`dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
 
 
 
