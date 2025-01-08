@@ -14,18 +14,17 @@ Algunos datos sobre el resonador:
 
 La transferencia de los datos se puede realizar en varios formatos:
 
-- Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to Dicom. 
-Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos 
+- Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to Dicom. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos 
 opciones: Los sacas directamente del resonador usando una USB, o los sacas usando ``/misc`` (ver adelante).
 
 
 - Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando 
-`mrconvert<https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o 
+`mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o 
 `dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
 
 
 
- Como exportar mis datos desde el Bruker
+Como exportar mis datos desde el Bruker
 --------------------
 
 Los datos que se almacenan en el bruker estan en ruta ``/misc/bruker7/data01/`` o ``/misc/bruker7/data02/`` al 
@@ -44,6 +43,14 @@ fácil, buscarlo utilizando un * si sabes el nombre de tu archivo.
    ls *irm150d_rata64A*
 
 Al hacer este filtro, yo estoy buscando especificamente por la rata 64A y el archivo que me encontro es el siguiente: 
+
+``20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1`` , y es el que voy a utilizar de ahora en 
+adelante como ejemplo.
+
+Donde 20220104 es la fecha de adquisición y INB_C13_hluna_irm150d_rata64A_INB_C13_hluna el nombre que le das a 
+tu estudio. Si nosotros enlistamos (ls) esta carpeta para ver que hay adentro, veremos que hay carpetas 
+enumeradas al inicio, estos corresponden a cada adquisición en el orden en el que fueron tomadas y son las que 
+vamos a ir convirtiendo.
 
 .. code-block:: Bash
 
