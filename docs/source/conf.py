@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Don Clusterio'
 copyright = '2025, L. Concha, L. González-Santos'
 author = 'L. Concha, L. González-Santos'
 
