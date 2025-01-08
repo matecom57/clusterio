@@ -17,7 +17,7 @@ Si es la primera vez que nos visitas, crea una nueva cuenta (`Register a new acc
 
 Lo más recomendable es instalar las aplicaciones oficiales de rocket.chat, disponibles para Windows, Mac, y 
 Linux, así como para teléfonos iOS y Android, disponibles en el siguiente link `AQUÍ 
-https://rocket.chat/install/`_.
+<https://rocket.chat/install/>`_.
 
 Si no quieres instalar las aplicaciones, puedes usar rocket.chat directamente en tu navegador web con la URL arriba mencionada.
 
