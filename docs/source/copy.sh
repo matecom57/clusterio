@@ -2,6 +2,7 @@
 
 fil=$1
 
-cp ../../../clusterio2/docs/source/$fil .
+cp ../../../c13inb.github.io.wiki/$fil .
+
 
 
