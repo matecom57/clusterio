@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2025, L. Concha, L. González-Santos'
+author = 'L. Concha, L. González-Santos'
 
 release = '0.1'
 version = '0.1.0'
