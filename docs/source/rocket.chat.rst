@@ -1,3 +1,4 @@
+
 Rocket.chat
 ====================
 
@@ -11,7 +12,7 @@ Crear nueva cuenta
 
 Si es la primera vez que nos visitas, crea una nueva cuenta (`Register a new account <https://chat-lanirem.lavis.unam.mx/home>`_):
 
-.. image: Desktop/crear_cuenta.png
+.. image:: crear_cuenta.png
 
 
 Lo más recomendable es instalar las aplicaciones oficiales de rocket.chat, disponibles para Windows, Mac, y Linux, así como para teléfonos iOS y Android, disponibles en el siguiente link:
@@ -31,7 +32,8 @@ La comunicación en rocket.chat se da en *canales*. Los canales pueden ser priva
 
 Para escribir, utiliza la caja hasta abajo de la página. En esa página puedes usar texto simple, o utilizar negritas, cursivas, emojis, y hasta código y fórmulas matemáticas. 
 
-![](https://i.imgur.com/EFkbsem.png `![<https://i.imgur.com/EFkbsem.png>`_
+
+.. image:: canales.png
 
 
 
