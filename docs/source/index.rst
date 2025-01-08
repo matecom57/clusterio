@@ -22,4 +22,5 @@ Contents
    Introduccion
         Don Clusterio es una red de computadoras
    rocket.chat
+   Resonadores
    api
