@@ -1,4 +1,4 @@
-Resonadores:Bruker-1
+Resonadores:Bruker-2
 ==================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
@@ -166,7 +166,7 @@ Tutoriales para el uso del resonador
 
 Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso básico del resonador.
 
-- `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. <Resonadores_Bruker-Conexión-Cryo>`_
+- `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. <Resonadores_Bruker-Conexion-Cryo>`_
 
 - `Operación del programa Paravision para la adquisición de imágenes ex-vivo. <Resonadores_Bruker-Paravision-EXvivo>`_
 
