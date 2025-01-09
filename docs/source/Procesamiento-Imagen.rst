@@ -1,4 +1,4 @@
-rocesamiento Imagen
+Procesamiento Imagen
 ====================
 
 
