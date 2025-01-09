@@ -71,6 +71,7 @@ los modulos, si aun no te familiarizas con ellos, da click `aquí <https://githu
    module load brkraw/0.3.11
 
 .. code-block:: Bash
+
    brkraw info 20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1/
 
    Paravision 7.0.0
