@@ -168,7 +168,7 @@ Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso bási
 
 - `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. <Resonadores-Bruker-Conexión-Cryo>`_
 
-- `Operación del programa Paravision para la adquisición de imágenes ex-vivo. <Resonadores-Bruker-Paravision-EXvivo>`_
+- `Operación del programa Paravision para la adquisición de imágenes ex-vivo. <Resonadores_Bruker-Paravision-EXvivo>`_
 
 - `Sintonización de la antena de volumen, para escaneos con antena de superficie 2x2. <Resonadores-Bruker-Wobble-Superficie>`_
 
