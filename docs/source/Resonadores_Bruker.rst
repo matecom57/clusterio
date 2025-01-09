@@ -8,18 +8,15 @@ Algunos datos sobre el resonador:
 
 - Bruker Biospec 70/16: 70 porque es un 7 Tesla, y 16 porque su túnel tiene 16 cm de diámetro.
 
-- El resonador tiene un magneto `Pharmascan <https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE>`_, sin embargo toda la electrónica y los gradientes son de un `Biospec 
-<https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE>`_). 
+- El resonador tiene un magneto `Pharmascan <https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE>`_, sin embargo toda la electrónica y los gradientes son de un `Biospec <https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE>`_). 
 Por lo tanto, el resonador es *de facto* un Biospec.
 
 
-** La transferencia de los datos se puede realizar en varios formatos:**
+**La transferencia de los datos se puede realizar en varios formatos:**
 
 - Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to Dicom. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos  opciones: Los sacas directamente del resonador usando una USB, o los sacas usando ``/misc`` (ver adelante).
 
-- Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando `mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o  
-`dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
-
+- Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando `mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o `dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
 
 
 Como exportar mis datos desde el Bruker
@@ -65,6 +62,9 @@ los modulos, si aun no te familiarizas con ellos, da click `aquí <https://githu
 .. code-block:: Bash
    
    module load brkraw/0.3.11
+
+Una vez cargado el módulo estas listo para utilizarlo. Si quieres saber la información detallada de cada una 
+de tus adquisiciones, puedes utilizar el comando brkraw info que nos despliega la siguiente información:
 
 .. code-block:: Bash
 
@@ -147,9 +147,9 @@ Para ver que tus imagenes se convirtieron exitosamente en formato Nifti, vamos a
 ``mrview`` 
 del software mrtrix. Para esto, no olvides cargar tu modulo: ``module load mrtrix/3.0.4``
 
-`.. code-block:: Bash
+.. code-block:: Bash
 
-    mrview 64A_T2.nii.gz
+   mrview 64A_T2.nii.gz
 
 Y el resultado es esto:
 
@@ -157,7 +157,8 @@ Y el resultado es esto:
 
 
 
-Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es procesarlas de acuerdo al tipo de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada<https://github.com/c13inb/c13inb.github.io/wiki/Procesamiento-Imagen>`_. 
+Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es procesarlas de acuerdo al tipo 
+de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada <https://github.com/c13inb/c13inb.github.io/wiki/Procesamiento-Imagen>`_. 
 
 
 Tutoriales para el uso del resonador
@@ -165,14 +166,21 @@ Tutoriales para el uso del resonador
 
 Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso básico del resonador.
 
-* `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. <Resonadores-Bruker-Conexión-Cryo>`
-* `Operación del programa Paravision para la adquisición de imágenes ex-vivo. <Resonadores-Bruker-Paravision-EXvivo>`
-* `Sintonización de la antena de volumen, para escaneos con antena de superficie 2x2. <Resonadores-Bruker-Wobble-Superficie>`
+* `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. 
+<Resonadores-Bruker-Conexión-Cryo>`_
+* `Operación del programa Paravision para la adquisición de imágenes ex-vivo. 
+<Resonadores-Bruker-Paravision-EXvivo>`_
+* `Sintonización de la antena de volumen, para escaneos con antena de superficie 2x2. 
+<Resonadores-Bruker-Wobble-Superficie>`_
 
 Checklists para uso del resonador
 --------------------
 
 Las siguientes ligas contienen algunos google docs con checklist útiles para el cambio de antenas y uso del resonador.
-* `Preparación antena Cryo<https://docs.google.com/document/d/1S850dGVnyL1k5UMD0Cf-ebfKXblKklNMRuPto7Vl66M/edit?usp=sharing>`_
-* `Preparación antena de volumen<https://docs.google.com/document/d/1pCrKejx-Q31kqw07g8t0ZBscDQr9n007i6fegMNHtMA/edit?usp=sharing>`_
-* `Checklist inicio Paravision<https://docs.google.com/document/d/1hwDM7ySkY2xqzBnHkGzsFiiu1vH7U6Af9pxxcvGMHR4/edit?usp=sharing>`_
+
+* `Preparación antena Cryo 
+<https://docs.google.com/document/d/1S850dGVnyL1k5UMD0Cf-ebfKXblKklNMRuPto7Vl66M/edit?usp=sharing>`_
+* `Preparación antena de volumen 
+<https://docs.google.com/document/d/1pCrKejx-Q31kqw07g8t0ZBscDQr9n007i6fegMNHtMA/edit?usp=sharing>`_
+* `Checklist inicio Paravision 
+<https://docs.google.com/document/d/1hwDM7ySkY2xqzBnHkGzsFiiu1vH7U6Af9pxxcvGMHR4/edit?usp=sharing>`_
