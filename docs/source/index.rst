@@ -18,16 +18,14 @@ Disfruten esta documentación y si hay comentarios, dudas o algo que deseen sabe
 
 .. note::
 
-   This project is under active development.
+   Esta documentación está en desarrollo activo.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
    Introduccion
-        Don Clusterio es una red de computadoras
    rocket.chat
    Resonadores
    api
