@@ -58,6 +58,11 @@ Cuenta. Esta comunidad es segura, así que en la pestaña Perfil dinos tu nombre
 Notificaciones
 --------------------
 
+En la pestaña ``Preferencias`` encontrarás la sección de ``Notificaciones``. Si instalaste la aplicación en 
+tu 
+teléfono, puedes controlar las notificaciones push. La opción Todos los mensajes es el default, pero puedes 
+cambiar a menciones, y solo recibirás notificaciones si fuiste mencionada/o. Sería triste que lo hicieras, 
+pero puedes elegir Nada.
 
 Si no usas la aplicación móvil pero no quieres estar fuera de la jugada, puedes usar el correo electrónico como sistema de notificaciones, en las opciones *Notificaciones por correo electrónico fuera de línea*. Igual, puedes elegir todo, menciones, o nada (:cry:).
 
