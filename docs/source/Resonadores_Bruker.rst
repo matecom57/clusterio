@@ -1,4 +1,4 @@
-Resonadores:Bruker-0
+Resonadores:Bruker-1
 ==================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
