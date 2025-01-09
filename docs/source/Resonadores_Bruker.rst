@@ -1,4 +1,4 @@
-Resonadores:Bruker-1
+Resonadores:Bruker-2
 ==================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
@@ -166,11 +166,13 @@ Tutoriales para el uso del resonador
 
 Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso básico del resonador.
 
-* `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. 
+- `Desconexión de la antena de superficie 2x2 y conexión de la antena cryo. 
 <Resonadores-Bruker-Conexión-Cryo>`_
-* `Operación del programa Paravision para la adquisición de imágenes ex-vivo. 
+
+- `Operación del programa Paravision para la adquisición de imágenes ex-vivo. 
 <Resonadores-Bruker-Paravision-EXvivo>`_
-* `Sintonización de la antena de volumen, para escaneos con antena de superficie 2x2. 
+
+- `Sintonización de la antena de volumen, para escaneos con antena de superficie 2x2. 
 <Resonadores-Bruker-Wobble-Superficie>`_
 
 Checklists para uso del resonador
@@ -178,9 +180,11 @@ Checklists para uso del resonador
 
 Las siguientes ligas contienen algunos google docs con checklist útiles para el cambio de antenas y uso del resonador.
 
-* `Preparación antena Cryo 
+- `Preparación antena Cryo 
 <https://docs.google.com/document/d/1S850dGVnyL1k5UMD0Cf-ebfKXblKklNMRuPto7Vl66M/edit?usp=sharing>`_
-* `Preparación antena de volumen 
+
+- `Preparación antena de volumen 
 <https://docs.google.com/document/d/1pCrKejx-Q31kqw07g8t0ZBscDQr9n007i6fegMNHtMA/edit?usp=sharing>`_
-* `Checklist inicio Paravision 
+
+- `Checklist inicio Paravision 
 <https://docs.google.com/document/d/1hwDM7ySkY2xqzBnHkGzsFiiu1vH7U6Af9pxxcvGMHR4/edit?usp=sharing>`_
