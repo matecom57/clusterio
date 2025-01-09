@@ -1,7 +1,8 @@
 import sys
 
 filin = sys.argv[1]
-file = filin + '.rst'
+
+file = filin + '.dat'
 
 #file = 'Home.rst'
 
@@ -10,7 +11,7 @@ fil = open(file, 'r')
 datos = fil.readlines()
 fil.close()
 
-fileN = filin + '.dat'
+fileN = filin + '.rst'
 
 filo = open(fileN, 'w')
 

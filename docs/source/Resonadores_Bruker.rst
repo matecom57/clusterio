@@ -1,4 +1,4 @@
-Resonadores:Bruker-3
+Resonadores:Bruker-0
 ==================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
@@ -158,7 +158,7 @@ Y el resultado es esto:
 
 
 Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es procesarlas de acuerdo al tipo 
-de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada <https://github.com/c13inb/c13inb.github.io/wiki/Procesamiento-Imagen>`_. 
+de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada <Procesamiento-Imagen>`_. 
 
 
 Tutoriales para el uso del resonador
