@@ -1,4 +1,4 @@
-Resonadores:Bruker-2
+Resonadores:Bruker-3
 ==================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
@@ -8,10 +8,8 @@ Algunos datos sobre el resonador:
 
 - Bruker Biospec 70/16: 70 porque es un 7 Tesla, y 16 porque su túnel tiene 16 cm de diámetro.
 
-- El resonador tiene un magneto 
- `Pharmascan <https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE>`_, 
-sin embargo toda la electrónica y los gradientes son de un 
-`Biospec 
+- El resonador tiene un magneto `Pharmascan <https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE>`_, 
+sin embargo toda la electrónica y los gradientes son de un `Biospec 
 <https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE>`_). 
 Por lo tanto, el resonador es *de facto* un Biospec.
 
@@ -23,7 +21,8 @@ Dicom. Al finalizar te dará la ruta donde se guardaron, que es por default dent
 
 
 - Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando 
-`mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o  `dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
+`mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o  
+`dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
 
 
 
