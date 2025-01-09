@@ -8,18 +8,22 @@ Algunos datos sobre el resonador:
 
 - Bruker Biospec 70/16: 70 porque es un 7 Tesla, y 16 porque su túnel tiene 16 cm de diámetro.
 
-- El resonador tiene un magneto  `Pharmascan 
-<https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE>`_, sin embargo toda la electrónica y los gradientes son de un [Biospec](https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE). Por lo tanto, el resonador es _de facto_ un Biospec.
+- El resonador tiene un magneto 
+ `Pharmascan  
+<https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE>`_, 
+sin embargo toda la electrónica y los gradientes son de un 
+`Biospec 
+<https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE>`_). 
+Por lo tanto, el resonador es _de facto_ un Biospec.
 
 
 La transferencia de los datos se puede realizar en varios formatos:
 
-- Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to Dicom. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos 
-opciones: Los sacas directamente del resonador usando una USB, o los sacas usando ``/misc`` (ver adelante).
+- Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige convert to 
+Dicom. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos  opciones: Los sacas directamente del resonador usando una USB, o los sacas usando ``/misc`` (ver adelante).
 
 
-- Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando 
-`mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o 
+- Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando `mrconvert <https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html>`_ de Mrtrix3, o 
 `dcm2niix <https://github.com/rordenlab/dcm2niix>`_).
 
 
@@ -47,7 +51,8 @@ Al hacer este filtro, yo estoy buscando especificamente por la rata 64A y el arc
 ``20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1`` , y es el que voy a utilizar de ahora en 
 adelante como ejemplo.
 
-Donde 20220104 es la fecha de adquisición y INB_C13_hluna_irm150d_rata64A_INB_C13_hluna el nombre que le das a 
+Donde ``20220104`` es la fecha de adquisición y ``INB_C13_hluna_irm150d_rata64A_INB_C13_hluna`` el nombre que 
+le das a 
 tu estudio. Si nosotros enlistamos (ls) esta carpeta para ver que hay adentro, veremos que hay carpetas 
 enumeradas al inicio, estos corresponden a cada adquisición en el orden en el que fueron tomadas y son las que 
 vamos a ir convirtiendo.
@@ -60,7 +65,8 @@ vamos a ir convirtiendo.
 
 Bien, hasta aqui ya sabemos como acceder a tus imágenes del Bruker, siguiente paso es exportarlas en formato Nifti.
 
-Paso numero uno es cargar el modulo de Bruker (gracias a Ricardo Rios que nos hizo la vida mas facil al crear los modulos, si aun no te familiarizas con ellos, da click `aquí<https://github.com/c13inb/c13inb.github.io/wiki/Modules>`_ y aprende mas a como usarlos.
+Paso numero uno es cargar el modulo de Bruker (gracias a Ricardo Rios que nos hizo la vida mas facil al crear 
+los modulos, si aun no te familiarizas con ellos, da click `aquí <https://github.com/c13inb/c13inb.github.io/wiki/Modules>`_ y aprende mas a como usarlos.
 
 .. code-block:: Bash
    
