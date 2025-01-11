@@ -84,12 +84,12 @@ while i < nl:
     print('](')
     sal = sal + parentesis_corchete(dd)
   elif '```' in dd:
-    sal = sal + '.. source-block:: Bash \n\n'
+    sal = sal + '.. code-block:: Bash \n\n'
     i = i+1
     dd = datos[i]
     while '```' not in dd:
       print ('fue ``` '+dd)
-      sal = sal + '  ' + dd
+      sal = sal + '   ' + dd
       i = i+1
       print(i)
       dd = datos[i]
