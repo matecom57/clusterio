@@ -2,7 +2,7 @@ import sys
 
 filin = sys.argv[1]
 
-file = filin + '.dat'
+file = filin + '.md'
 
 #file = 'Home.rst'
 
@@ -60,7 +60,7 @@ while i < nl:
       s2 = s2.replace('ú', 'u')
       s2 = s2.replace(':-', '-')
       s2 = s2.replace(':', '-')
-      sal = sal +dd[0:k1-1] + ' :doc:`' + s1 + ' <' + s2 + '>`' + dd[k3+1:] + '\n'
+      sal = sal +dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:] + '\n'
     else:
       sal = sal +dd[0:k1-1] + ' `' + s1 + 'xxxx' + s2 + 'xxx' + dd[k3+1:]
   else:
