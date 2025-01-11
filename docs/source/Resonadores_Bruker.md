@@ -1,4 +1,4 @@
-# Bruker Biospec 70/16
+# Bruker Biospec 70/16 - 0
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
 
