@@ -17,7 +17,7 @@ def parentesis_corchete(dd=''):
     k2 = dd.find('](')
     print(k2)
     mm=1
-    while mm<4:   
+    while k2 != -1:   
       k1 = dd.find('[',0,k2-1)
       s1 = dd[k1+1:k2]
       k3 = dd.find(')',k2+1,len(dd))
