@@ -1,5 +1,33 @@
 import sys
 
+def http(dd='', k1=0, k2=0, k3=0, s1='', s2=''):
+  sal = dd[0:k1-1] + ' `' + s1 + ' <' + s2 + '>`_' + dd[k3+1:]
+  return sal
+
+def punto_raya(dd='', k1=0, k2=0, k3=0, s2=''):
+  s2 = s2[2:]
+  s2 = s2.replace('ú', 'u')
+  s2 = s2.replace(':-', '-')
+  s2 = s2.replace(':', '-')
+  print(s2)
+  sal = dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:] + '\n'
+  print(sal)
+  return sal
+
+def parentesis_corchete(dd=''):
+    k2 = dd.find('](')
+    k1 = dd.find('[',0,k2-1)
+    s1 = dd[k1+1:k2]
+    k3 = dd.find(')',k2+1,len(dd))
+    s2 = dd[k2+2:k3]
+    if 'http' in s2:
+      print('http')
+      ss = http(dd, k1, k2, k3, s1, s2)
+    elif './' in s2:
+      print('./')
+      ss = punto_raya(dd, k1, k2, k3, s2)
+    return ss
+
 filin = sys.argv[1]
 
 file = filin + '.md'
@@ -21,51 +49,32 @@ dd = datos[0]
 
 sal = ''
 
+# encabezado ===========================================
+
 if dd[0] == '#':
   sal=sal + dd[2:]
   sal=sal + ray
 
 nl = len(datos)
 
+print(nl)
+
 i=1
 while i < nl:
   dd = datos[i]
+  dd = dd.replace('`','``')
+  
   if dd[0] == '#':  
+    print('#')
     sal=sal + dd[2:]
     sal=sal + '--------------------\n\n'
-  elif '`' in dd:
-    nc3 = len(dd)
-    ddn = ''
-    m=1
-    while m < nc3:
-      if dd[m] == '`':
-        ddn = ddn + '``'
-      else:
-        ddn = ddn + dd[m]
-      m = m+1
-    print(dd)
   elif '](' in dd:
-#    print(dd)
-    k2 = dd.find('](')
-    k1 = dd.find('[',0,k2-1)
-    s1 = dd[k1+1:k2]
-    k3 = dd.find(')',k2+1,len(dd))
-#    print(s1)
-    s2 = dd[k2+2:k3]
-#    print(s2)
-    if 'http' in s2:
-      sal = sal +dd[0:k1-1] + ' `' + s1 + ' <' + s2 + '>`_' + dd[k3+1:]
-    elif './' in s2:
-      s2 = s2[2:]
-      s2 = s2.replace('ú', 'u')
-      s2 = s2.replace(':-', '-')
-      s2 = s2.replace(':', '-')
-      sal = sal +dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:] + '\n'
-    else:
-      sal = sal +dd[0:k1-1] + ' `' + s1 + 'xxxx' + s2 + 'xxx' + dd[k3+1:]
+    print('](')
+    sal = sal + parentesis_corchete(dd)
   else:
-    sal = sal + dd 
+    sal = sal + dd
   i = i+1
+
 
 filo.write(sal)
 filo.close()

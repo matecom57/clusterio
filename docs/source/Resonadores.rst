@@ -1,4 +1,4 @@
-Resonadores-0
+Resonadores
 ====================
 
 
@@ -8,7 +8,9 @@ El Laboratorio Nacional enfocado en imagenología por resonancia magnética  `La
 
 1. :doc:`Resonadores-Bruker`
 
+
 2. :doc:`Resonadores-GE`
+
 
 3. :doc:`Resonadores-Philips`
 
