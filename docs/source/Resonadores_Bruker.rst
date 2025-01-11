@@ -1,4 +1,4 @@
-Resonadores:Bruker-2
+Bruker Biospec 70/16 (7 T)permisos
 ==================
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
