@@ -71,9 +71,14 @@ while i < nl:
   dd = datos[i]
   dd = dd.replace('`','``')
   
-  if dd[0] == '#':  
+  if dd[0] == '#':
+    k=1
+    while dd[k] == '#':
+      k = k+1
+    while dd[k] == ' ':
+      k = k+1
     print('fue #')
-    sal=sal + dd[2:]
+    sal=sal + dd[k:]
     sal=sal + '--------------------\n\n'
   elif '](' in dd:
     print('](')

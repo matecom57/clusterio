@@ -1,4 +1,4 @@
-Bruker Biospec 70/16 -0
+Bruker Biospec 70/16 - 1
 ====================
 
 
@@ -21,7 +21,7 @@ La transferencia de los datos se puede realizar en varios formatos:
 
 ***
 
- Como exportar mis datos desde el Bruker
+Como exportar mis datos desde el Bruker
 --------------------
 
 
