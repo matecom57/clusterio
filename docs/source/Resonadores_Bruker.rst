@@ -1,4 +1,4 @@
-Bruker Biospec 70/16 - 1
+Bruker Biospec 70/16 - 2
 ====================
 
 
@@ -29,9 +29,9 @@ Como exportar mis datos desde el Bruker
 Los datos que se almacenan en el bruker estan en ruta ``/misc/bruker7/data01/`` o ``/misc/bruker7/data02/`` al cual podemos acceder de la siguiente manera: 
 
 
-``````
-cd /misc/bruker7/data02/user/mi_usuario
-``````
+.. code-block:: Bash
+
+   cd /misc/bruker7/data02/user/mi_usuario
 
 Lo siguiente es localizar los archivos que deseas convertir. Puedes buscarlos al usar el comando ``ls`` o maás fácil, buscarlo utilizando un ``*`` si sabes el nombre de tu archivo. 
 
