@@ -1,4 +1,4 @@
-Bruker Biospec 70/16 -0
+Bruker Biospec 70/16 -2
 ====================
 
 
@@ -168,11 +168,11 @@ Tutoriales para el uso del resonador
 
 Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso básico del resonador.
 
-* :doc:`Resonadores-Bruker-Conexión-Cryo`
+* :doc:`Resonadores_Bruker-Conexion-Cryo`
 
-* :doc:`Resonadores-Bruker-Paravision-EXvivo`
+* :doc:`Resonadores_Bruker-Paravision-EXvivo`
 
-* :doc:`Resonadores-Bruker-Wobble-Superficie`
+* :doc:`Resonadores_Bruker-Wobble-Superficie`
 
 Checklists para uso del resonador
 --------------------
