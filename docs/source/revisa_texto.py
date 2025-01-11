@@ -9,23 +9,30 @@ def punto_raya(dd='', k1=0, k2=0, k3=0, s2=''):
   s2 = s2.replace('ú', 'u')
   s2 = s2.replace(':-', '-')
   s2 = s2.replace(':', '-')
-  print(s2)
-  sal = dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:] + '\n'
-  print(sal)
+  sal = dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:]
   return sal
 
 def parentesis_corchete(dd=''):
+    print('=======================================================')
     k2 = dd.find('](')
-    k1 = dd.find('[',0,k2-1)
-    s1 = dd[k1+1:k2]
-    k3 = dd.find(')',k2+1,len(dd))
-    s2 = dd[k2+2:k3]
-    if 'http' in s2:
-      print('http')
-      ss = http(dd, k1, k2, k3, s1, s2)
-    elif './' in s2:
-      print('./')
-      ss = punto_raya(dd, k1, k2, k3, s2)
+    print(k2)
+    mm=1
+    while mm<4:   
+      k1 = dd.find('[',0,k2-1)
+      s1 = dd[k1+1:k2]
+      k3 = dd.find(')',k2+1,len(dd))
+      s2 = dd[k2+2:k3]
+      if 'http' in s2:
+        print('http')
+        ss = http(dd, k1, k2, k3, s1, s2)
+      elif './' in s2:
+        print('./')
+        ss = punto_raya(dd, k1, k2, k3, s2)
+      print(ss)
+      dd=ss
+      k2 = dd.find('](') 
+      print ('--------------------------------  '+str(k2)+'\n')
+      mm = mm+1   
     return ss
 
 filin = sys.argv[1]
