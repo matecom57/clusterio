@@ -1,5 +1,7 @@
 import sys
 
+var = sys.argv[1]
+
 def http(dd='', k1=0, k2=0, k3=0, s1='', s2=''):
   sal = dd[0:k1-1] + ' `' + s1 + ' <' + s2 + '>`_' + dd[k3+1:]
   return sal
@@ -58,8 +60,10 @@ sal = ''
 
 # encabezado ===========================================
 
+palabra = dd[0]
+palabra = palabra.replace('\n','')
 if dd[0] == '#':
-  sal=sal + dd[2:]
+  sal=sal + dd[2:] + ' ' + var + '\n'
   sal=sal + ray
 
 nl = len(datos)
