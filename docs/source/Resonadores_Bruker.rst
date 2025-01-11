@@ -1,4 +1,4 @@
-Bruker Biospec 70/16 -4
+Bruker Biospec 70/16 -0
 ====================
 
 
@@ -155,7 +155,7 @@ Para ver que tus imagenes se convirtieron exitosamente en formato Nifti, vamos a
 
 Y el resultado es esto:
 
- `image <https://github.com/c13inb/c13inb.github.io/assets/129544525/fe8d393b-9b6f-4df3-9af3-02aadabf23f1>`_
+.. image:: bruker01.png 
 
 Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es procesarlas de acuerdo al tipo de estudio. Aprende más acerca de como procesar tus imágenes en esta `entrada <https://github.com/c13inb/c13inb.github.io/wiki/Procesamiento-Imagen>`_. 
 

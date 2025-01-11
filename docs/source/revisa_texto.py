@@ -80,6 +80,8 @@ while i < nl:
     print('fue #')
     sal=sal + dd[k:]
     sal=sal + '--------------------\n\n'
+  elif '![image]' in dd:
+    sal = sal + '.. image:: bruker01.png \n'
   elif '](' in dd:
     print('](')
     sal = sal + parentesis_corchete(dd)
