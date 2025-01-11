@@ -88,7 +88,7 @@ while i < nl:
     i = i+1
     dd = datos[i]
     while '```' not in dd:
-      print ('fue ```')
+      print ('fue ``` '+dd)
       sal = sal + '  ' + dd
       i = i+1
       print(i)
