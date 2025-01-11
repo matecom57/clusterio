@@ -1,4 +1,4 @@
-Bruker Biospec 70/16 
+Bruker Biospec 70/16 -0
 ====================
 
 
@@ -31,7 +31,7 @@ Los datos que se almacenan en el bruker estan en ruta ``/misc/bruker7/data01/`` 
 
 .. source-block:: Bash 
 
-  cd /misc/bruker7/data02/user/mi_usuario
+   cd /misc/bruker7/data02/user/mi_usuario
 
 Lo siguiente es localizar los archivos que deseas convertir. Puedes buscarlos al usar el comando ``ls`` o maás fácil, buscarlo utilizando un ``*`` si sabes el nombre de tu archivo. 
 
