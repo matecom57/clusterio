@@ -83,6 +83,15 @@ while i < nl:
   elif '](' in dd:
     print('](')
     sal = sal + parentesis_corchete(dd)
+  elif '```' in dd:
+    sal = sal + '.. source-block:: Bash \n\n'
+    i = i+1
+    dd = datos[i]
+    while '```' not in dd:
+      sal = sal + '  ' + dd
+      i = i+1
+      print(i)
+      dd = datos[i]
   else:
     sal = sal + dd
   i = i+1
