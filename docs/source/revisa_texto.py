@@ -62,9 +62,7 @@ sal = ''
 
 palabra = dd[0]
 palabra = palabra.replace('\n','')
-if dd[0] == '#':
-  sal=sal + dd[2:] + ' ' + var + '\n'
-  sal=sal + ray
+sal=sal + ' ' + var + '\n\ +  ray
 
 nl = len(datos)
 
