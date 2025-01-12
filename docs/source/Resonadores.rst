@@ -1,4 +1,4 @@
-Resonadores 03
+Resonadores Resonadores-Bruker
 ====================
 
 
