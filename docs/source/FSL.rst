@@ -1,5 +1,9 @@
-FMRIB Software Library - FSL 00
+FSL 01
 ====================
+
+
+FMRIB Software Library - FSL
+--------------------
 
 
 FSL es una libreria _open access_ de herramientas para el análisis de imagenes de resonancia magnética, desarrollada por investigadores de la Universidad de Oxford. Al día de hoy cuenta con una colección extensa para el análisis y procesamiento de imágenes estructurales, pesadas a difusión (DWI) y funcionales (fMRI). La librería FSL no le hace el feo a nadie y la puedes descargar en cualquier sistema operativo Linux, macOS o Windows (bueno, poquito a windows, hay que hacerlo mediante WSL). En este `link <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>`_ te dicen como paso a paso.
