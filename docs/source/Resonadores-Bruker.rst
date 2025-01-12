@@ -1,4 +1,4 @@
-Resonadores:Bruker 00
+Resonadores:Bruker 01
 ====================
 
 
@@ -168,7 +168,7 @@ Tutoriales para el uso del resonador
 
 Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso básico del resonador.
 
-* :doc:`Resonadores-Bruker-Conexión-Cryo`
+* :doc:`Resonadores-Bruker-Conexion-Cryo`
 
 * :doc:`Resonadores-Bruker-Paravision-EXvivo`
 

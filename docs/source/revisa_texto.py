@@ -9,6 +9,7 @@ def http(dd='', k1=0, k2=0, k3=0, s1='', s2=''):
 def punto_raya(dd='', k1=0, k2=0, k3=0, s2=''):
   s2 = s2[2:]
   s2 = s2.replace('ú', 'u')
+  s2 = s2.replace('ó', 'o')
   s2 = s2.replace(':-', '-')
   s2 = s2.replace(':', '-')
   sal = dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:]
