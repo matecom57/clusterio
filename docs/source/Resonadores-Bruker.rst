@@ -1,5 +1,10 @@
-Bruker Biospec 70/16 02
+Resonadores:Bruker 03
 ====================
+
+
+
+Bruker Biospec 70/16
+--------------------
 
 
 Para usar el resonador Bruker es necesario acreditar un proceso de certificación. Para ello es necesario contactar al Dr. Juan Ortiz.
