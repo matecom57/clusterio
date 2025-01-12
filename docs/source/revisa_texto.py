@@ -83,8 +83,6 @@ while i < nl:
     print('fue #')
     sal=sal + dd[k:]
     sal=sal + '--------------------\n\n'
-  elif '![image]' in dd:
-    sal = sal + '.. image:: bruker01.png \n'
   elif '](' in dd:
     print('](')
     sal = sal + parentesis_corchete(dd)
@@ -92,7 +90,7 @@ while i < nl:
     k1 = dd.find('/')
     k2 = dd.find(']')
     x2 = dd[k1+1:k2-1]
-    sal = sal + '.. image:: ' x2
+    sal = sal + '.. image:: '+ x2
   elif '```' in dd:
     sal = sal + '.. code-block:: Bash \n\n'
     i = i+1
