@@ -61,7 +61,7 @@ sal = ''
 # encabezado ===========================================
 
 palabra = dd[0]
-palabra = palabra.replace('\n','')
+#palabra = palabra.replace('\n','')
 print(palabra)
 sal=sal + palabra[2:] + ' ' + var + '\n' +  ray
 
