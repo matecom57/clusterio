@@ -1,4 +1,4 @@
-#Procesamiento Imagen 00
+Procesamiento Imagen 00
 ====================
 
 
