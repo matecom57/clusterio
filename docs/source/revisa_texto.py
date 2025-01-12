@@ -88,6 +88,11 @@ while i < nl:
   elif '](' in dd:
     print('](')
     sal = sal + parentesis_corchete(dd)
+  elif '[[images' in dd:
+    k1 = dd.find('/')
+    k2 = dd.find(']')
+    x2 = dd[k1+1:k2-1]
+    sal = sal + '.. image:: ' x2
   elif '```' in dd:
     sal = sal + '.. code-block:: Bash \n\n'
     i = i+1
