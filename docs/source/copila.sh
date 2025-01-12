@@ -1,8 +1,9 @@
 #!/bin/bash
 
-par=$1
+prog=$1
+par=$2
 
-python revisa_texto.py Resonadores $par
+python revisa_texto.py $prog  $par
 
 ../../sube_git.sh
 
