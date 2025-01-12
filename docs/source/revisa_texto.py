@@ -1,6 +1,6 @@
 import sys
 
-var = sys.argv[1]
+var = sys.argv[2]
 
 def http(dd='', k1=0, k2=0, k3=0, s1='', s2=''):
   sal = dd[0:k1-1] + ' `' + s1 + ' <' + s2 + '>`_' + dd[k3+1:]
