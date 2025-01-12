@@ -1,4 +1,4 @@
-uker Biospec 70/16 02
+Bruker Biospec 70/16 02
 ====================
 
 
