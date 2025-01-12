@@ -7,13 +7,16 @@ Para usar el resonador Bruker es necesario acreditar un proceso de certificació
 
 
 Algunos datos sobre el resonador:
+
 * Bruker Biospec 70/16: 70 porque es un 7 Tesla, y 16 porque su túnel tiene 16 cm de diámetro.
-* El resonador tiene un magneto  [Pharmascan](https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE), sin embargo toda la electrónica y los gradientes son de un [Biospec](https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE). Por lo tanto, el resonador es _de facto_ un Biospec.
+
+* El resonador tiene un magneto  [Pharmascan](https://www.bruker.com/products/mr/preclinical-mri/pharmascan/overview.html?gclid=EAIaIQobChMIo-bPoJCW4QIVx7jACh3UYAvBEAAYASAAEgIKrfD_BwE), sin embargo toda la electrónica y los gradientes son de un [Biospec](https://www.bruker.com/products/mr/preclinical-mri/biospec/overview.html?gclid=EAIaIQobChMIrY6ZtpCW4QIVhIbACh3L_wZLEAAYASAAEgJdofD_BwE). Por lo tanto, el resonador es *de facto* un Biospec.
 
 
 La transferencia de los datos se puede realizar en varios formatos:
 
 * Formato DICOM: En Paravision seleccionar los datasets que requieres, da clic derecho y elige `convert to Dicom`. Al finalizar te dará la ruta donde se guardaron, que es por default dentro del data set. Ahora tienes dos opciones: Los sacas directamente del resonador usando una USB, o los sacas usando `/misc` (ver adelante).
+
 * Formato NIFTI: Obten primero tus datos en DICOM  y posteriormente conviértelos en tu máquina usando [mrconvert](https://mrtrix.readthedocs.io/en/latest/reference/commands/mrconvert.html) de Mrtrix3, o [dcm2niix](https://github.com/rordenlab/dcm2niix).
 
 
@@ -24,20 +27,24 @@ La transferencia de los datos se puede realizar en varios formatos:
 
 Los datos que se almacenan en el bruker estan en ruta `/misc/bruker7/data01/` o `/misc/bruker7/data02/` al cual podemos acceder de la siguiente manera: 
 
+
 ```
 cd /misc/bruker7/data02/user/mi_usuario
 ```
 
 Lo siguiente es localizar los archivos que deseas convertir. Puedes buscarlos al usar el comando `ls` o maás fácil, buscarlo utilizando un `*` si sabes el nombre de tu archivo. 
 
+
 ```
 ls *irm150d_rata64A*
 ```
+
 Al hacer este filtro, yo estoy buscando especificamente por la rata 64A y el archivo que me encontro es el siguiente: 
 
 `20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1 `, y es el que voy a utilizar de ahora en adelante como ejemplo.
 
 Donde `20220104` es la fecha de adquisición y `INB_C13_hluna_irm150d_rata64A_INB_C13_hluna` el nombre que le das a tu estudio. Si nosotros enlistamos (`ls`) esta carpeta para ver que hay adentro, veremos que hay carpetas enumeradas al inicio, estos corresponden a cada adquisición en el orden en el que fueron tomadas y son las que vamos a ir convirtiendo.
+
 
 ```
 ls 20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1/
@@ -59,6 +66,7 @@ Una vez cargado el módulo estas listo para utilizarlo. Si quieres saber la info
 ```
 brkraw info 20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1/
 ```
+
 
 ```
 Paravision 7.0.0
@@ -117,6 +125,7 @@ Position:       Prone           Entry:  HeadFirst
 
 Podría parecer mucha información al inicio, pero al final no es mas que los detalles del usuario y cada adquisición enumerada del `[001]` al `[008]`. Aquí tu puedes decidir que imágen te sirve y cual quieres convertir. Como ejemplo yo voy a convertir una imágen anatómica pesada a T2 que es la número 008:
 
+
 ```
 brkraw tonii 20220104_085643_INB_C13_hluna_irm150d_rata64A_INB_C13_hluna_1_1/ -o /path/64A_dwi -r 1 -s 8
 ```
@@ -133,6 +142,7 @@ En otras palabras:
 
 Para ver que tus imagenes se convirtieron exitosamente en formato Nifti, vamos a visualizarlas utilizando `mrview` del software `mrtrix`. Para esto, no olvides cargar tu modulo: `module load mrtrix/3.0.4`
 
+
 ```
 mrview 64A_T2.nii.gz
 ```
@@ -147,13 +157,21 @@ Una vez que conviertes tus imágenes, estas listo para el siguiente paso que es 
 ***
 
 # Tutoriales para el uso del resonador
+
 Las siguientes páginas de la wiki incluyen algunos tutoriales para el uso básico del resonador.
+
 * [Desconexión de la antena de superficie 2x2 y conexión de la antena cryo.](./Resonadores:Bruker:-Conexión-Cryo)
+
 * [Operación del programa Paravision para la adquisición de imágenes ex-vivo.](./Resonadores:Bruker:-Paravision-EXvivo)
+
 * [Sintonización de la antena de volumen, para escaneos con antena de superficie 2x2.](./Resonadores:Bruker:-Wobble-Superficie)
 
 # Checklists para uso del resonador
+
 Las siguientes ligas contienen algunos google docs con checklist útiles para el cambio de antenas y uso del resonador.
+
 * [Preparación antena Cryo](https://docs.google.com/document/d/1S850dGVnyL1k5UMD0Cf-ebfKXblKklNMRuPto7Vl66M/edit?usp=sharing)
+
 * [Preparación antena de volumen](https://docs.google.com/document/d/1pCrKejx-Q31kqw07g8t0ZBscDQr9n007i6fegMNHtMA/edit?usp=sharing)
+
 * [Checklist inicio Paravision](https://docs.google.com/document/d/1hwDM7ySkY2xqzBnHkGzsFiiu1vH7U6Af9pxxcvGMHR4/edit?usp=sharing)
