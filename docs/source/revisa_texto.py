@@ -12,6 +12,7 @@ def punto_raya(dd='', k1=0, k2=0, k3=0, s2=''):
   s2 = s2.replace('ó', 'o')
   s2 = s2.replace(':-', '-')
   s2 = s2.replace(':', '-')
+  s2 = s2.replace('_-', '-')
   sal = dd[0:k1-1] + ' :doc:`' + s2 + '`' + dd[k3+1:]
   return sal
 

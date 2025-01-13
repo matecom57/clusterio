@@ -1,4 +1,4 @@
-FEAT 02
+FEAT 03
 ====================
 
 
@@ -25,7 +25,7 @@ Para realizar dichas conversiones revise las siguientes ligas:
 
 2.-  Utilizar BET (Brain extraction tool) 
 
-Para poder utilizar la imagen estructural en FEAT, esta no debe tener tejido ajeno al encéfalo como lo las meninges o el cráneo. Para quitar estas estructuras de la imagen se usa en la terminal el comando :doc:`FSL_-Brain-extraction-tool-BET`.
+Para poder utilizar la imagen estructural en FEAT, esta no debe tener tejido ajeno al encéfalo como lo las meninges o el cráneo. Para quitar estas estructuras de la imagen se usa en la terminal el comando :doc:`FSL-Brain-extraction-tool-BET`.
 
 3.- Abriendo FEAT 
 
@@ -43,7 +43,7 @@ Tips para uso de FEAT
 
 + :doc:`FEAT-FEATQuery`: Con esta herramienta puedes analizar el **flujo de cambio de la señal BOLD** en una región específica y obtener su porcentaje de cambio en relación a una condición experimental en particular. 
 
-+ :doc:`FEAT_-Interseccion`: Este análisis te permite encontrar las **regiones en común** entre dos categorías o contrastes de interés (ej.  A > B  +  C > B = intersección AC > B).
++ :doc:`FEAT-Interseccion`: Este análisis te permite encontrar las **regiones en común** entre dos categorías o contrastes de interés (ej.  A > B  +  C > B = intersección AC > B).
 
 + Dual Regression: Este análisis es utilizado para identificar de manera individual en los sujetos los mapas espaciales y cursos temporales asociados (componenetes), que fueron generados con un análisis ICA para multiples sujetos.
 
@@ -53,4 +53,4 @@ Tips para uso de FEAT
 --------------------
 
 
-Descripción breve de los archivos dentro de una :doc:`FEAT_-Archivos-carpeta-FEAT`.
+Descripción breve de los archivos dentro de una :doc:`FEAT-Archivos-carpeta-FEAT`.
