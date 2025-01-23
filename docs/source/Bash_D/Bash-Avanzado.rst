@@ -18,7 +18,7 @@ comprimido por **gzip**.
 
 El manejo de variables es fundamental para la programación y bash scripting no es la excepción. Aquí te explico más.
 
-[Bucles/Loops](./Bash:-Loops) ##
+:doc:`Bash:-Loops`
 --------------------
 
 
