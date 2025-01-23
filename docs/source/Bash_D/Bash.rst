@@ -1,4 +1,4 @@
-Bash 0
+Bash -1
 ====================
 
 
@@ -8,16 +8,17 @@ Bash es un intérprete de comandos que viene por defecto en los sistemas **Linux
 Con la intención de facilitar su uso, aquí encontrarás una lista de comandos más comunes que te ayudarán con tu trabajo diario con bash. Si quieres aprender más, te recomiendo el capítulo `The Unix Workbench <https://seankross.com/the-unix-workbench/command-line-basics.html>`_ donde viene a gran detalle e incluye ejercicios de práctica. 
 
 
-bash - Comandos Básicos ##
+bash - Comandos Básicos 
 --------------------
 
 
-En la sección :doc:`Bash-Comandos-Basicos` se encuntran una serie de comandos frequentemente utilizados en bash que permiten la interacción con el sistema.
+En la sección :doc:`Bash-Comandos-Basicos` se encuntran una serie de comandos frequentemente utilizados en bash que permiten la 
+interacción con el sistema.
 
 El 95% de todos los comandos, trucos y piruetas que **se recomienda que todo integrante del laboratorio sepa** están agradablemente compilados en un TUTORIAL de la gente que hace el fsl, el cual puede consultarse `aquí <https://open.win.ox.ac.uk/pages/fslcourse/lectures/scripting/all.htm>`_. **NOTA**: En ese tutorial utilizan el lenguaje de shell llamado ''sh'', que está localizado en ''/bin/sh'', mientras que en el laboratorio habitualmente utilizamos ''bash'', que está en ''/bin/bash''. Los dos lenguajes hacen prácticamente lo mismo y tienen una sintaxis casi idéntica, con ligeras diferencias que pueden consultarse `aquí <https://superuser.com/questions/125728/what-is-the-difference-between-bash-and-sh.>`_.
 
 
-bash - Avanzado ##
+bash - Avanzado 
 --------------------
 
 Una vez aprendidos los comandos básicos puede consultar la sección de bash :doc:`Bash-Avanzado`, la cual contiene comandos que te  permitirán realizar muchas más acciones en la terminal.
