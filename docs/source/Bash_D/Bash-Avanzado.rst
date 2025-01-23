@@ -3,17 +3,17 @@ Bash: Avanzado 1
 
 
 :doc:`Bash-Permisos`
-
+--------------------
 
 Los permisos de archivos determinan los usuarios que pueden interactuar con éstos. Quién puede modificar, borrar o mover los mismos.
 
-:doc:`Bash:-Comprimir`
+:doc:`Bash-Comprimir`
 
 
-Este comando te sirve para disminuir el tamaño de los archivos que se manejan en el clúster se puede utilizar el formato __TAR__ comprimido por __gzip__.
+Este comando te sirve para disminuir el tamaño de los archivos que se manejan en el clúster se puede utilizar el formato **TAR** 
+comprimido por **gzip**.
 
-[Variables](./Bash:-Variables) ##
---------------------
+:doc:`Bash:-Variables`
 
 
 El manejo de variables es fundamental para la programación y bash scripting no es la excepción. Aquí te explico más.
