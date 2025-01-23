@@ -28,4 +28,5 @@ Contents
    Introduccion
    rocket.chat
    Resonadores
+   ./Bash_D/Bash
    api
