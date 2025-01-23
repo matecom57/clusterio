@@ -1,4 +1,4 @@
-Bash: Comandos Básicos 0
+Bash: Comandos Básicos -2
 ====================
 
 
