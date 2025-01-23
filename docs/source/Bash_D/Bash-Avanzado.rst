@@ -5,14 +5,9 @@ Bash: Avanzado 1
 :doc:`Bash-Permisos`
 
 
-[Permisos](./Bash:-Permisos) ##
---------------------
-
-
 Los permisos de archivos determinan los usuarios que pueden interactuar con éstos. Quién puede modificar, borrar o mover los mismos.
 
-[Comprimir](./Bash:-Comprimir) ##
---------------------
+:doc:`Bash:-Comprimir`
 
 
 Este comando te sirve para disminuir el tamaño de los archivos que se manejan en el clúster se puede utilizar el formato __TAR__ comprimido por __gzip__.
