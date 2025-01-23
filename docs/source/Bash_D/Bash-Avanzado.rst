@@ -1,5 +1,8 @@
-Bash: Avanzado 0
+Bash: Avanzado 1
 ====================
+
+
+:doc:`Bash-Permisos`
 
 
 [Permisos](./Bash:-Permisos) ##
