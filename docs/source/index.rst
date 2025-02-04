@@ -31,3 +31,5 @@ Contents
    ./Bash_D/Bash
    ./CLUSTER/Cluster
    ./Procesamiento-Imagenes/Procesamiento-Imagen
+   ./fMRI/fMRI
+
