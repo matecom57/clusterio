@@ -30,3 +30,4 @@ Contents
    Resonadores
    ./Bash_D/Bash
    ./CLUSTER/Cluster
+   ./Procesamiento-Imagenes/Procesamiento-Imagen
