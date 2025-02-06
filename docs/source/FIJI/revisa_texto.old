@@ -20,17 +20,26 @@ def punto_raya(dd='', k1=0, k2=0, k3=0, s2=''):
   return sal
 
 def parentesis_corchete(dd=''):
+#    print('=======================================================')
     k2 = dd.find('](')
-    k1 = dd.rfind('[',0,k2-1)
-    s1 = dd[k1+1:k2]
-    k3 = dd.find(')',k2+1)
-    s2 = dd[k2+2:k3]
- 
-    if 'http' in s2:
-      ss = http(dd, k1, k2, k3, s1, s2)
-    elif './' in s2:
-      ss = punto_raya(dd, k1, k2, k3, s2)
-
+#    print(k2)
+    mm=1
+    while k2 != -1:   
+      k1 = dd.find('[',0,k2-1)
+      s1 = dd[k1+1:k2]
+      k3 = dd.find(')',k2+1,len(dd))
+      s2 = dd[k2+2:k3]
+      if 'http' in s2:
+ #       print('http')
+        ss = http(dd, k1, k2, k3, s1, s2)
+      elif './' in s2:
+#        print('./')
+        ss = punto_raya(dd, k1, k2, k3, s2)
+#      print(ss)
+      dd=ss
+      k2 = dd.find('](') 
+#      print ('--------------------------------  '+str(k2)+'\n')
+      mm = mm+1   
     return ss
 
 filin = sys.argv[1]
@@ -82,6 +91,7 @@ while i < nl:
     sal=sal + dd[k:]
     sal=sal + '--------------------\n\n'
   elif '](' in dd:
+    print('](')
     sal = sal + parentesis_corchete(dd)
   elif '[[images' in dd:
     k1 = dd.find('/')
