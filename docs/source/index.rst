@@ -33,4 +33,4 @@ Contents
    ./Procesamiento-Imagenes/Procesamiento-Imagen
    ./fMRI/fMRI
    ./DW-MRI/DWMRI
-
+   ./FIJI/FIJI
