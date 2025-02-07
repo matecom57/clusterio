@@ -20,7 +20,7 @@ Tutoriales de supervivencia
 
 * Tutoriales y guias básicas de procesos y análisis `aquí <https://imagej.net/imaging/index>`_
 
-* Cómo hacer _stitching_ (mosaicos) con :doc:`Fiji-stitching`
+* Cómo hacer _stitching_ (mosaicos) con :doc:`Fiji-stitching`_
 
 
 ***
@@ -29,7 +29,8 @@ Análisis de imágenes
 --------------------
 
 
- :doc:`TensorEstructura` es una herramienta que se utiliza para procesar y analizar la información direccional y de coherencia local de una imagen. Es un método análogo al tensor de difusión de la resonancia magnética sensible a difusión, pero aplicado en imágenes histológicas. En el link encontraras mas información y un tutorial de como aplicarlo.
+ :doc:`TensorEstructura`_ es una herramienta que se utiliza para procesar y analizar la información direccional y de coherencia local de una imagen. Es un método análogo 
+al tensor de difusión de la resonancia magnética sensible a difusión, pero aplicado en imágenes histológicas. En el link encontraras mas información y un tutorial de como aplicarlo.
 
 
 
