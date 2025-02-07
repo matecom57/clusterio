@@ -20,7 +20,7 @@ Tutoriales de supervivencia
 
 * Tutoriales y guias básicas de procesos y análisis `aquí <https://imagej.net/imaging/index>`_
 
-* Cómo hacer _stitching_ (mosaicos) con :doc:`Fiji-stitching`
+* Cómo hacer _stitching_ (mosaicos) con :ref:`xxx <Fiji-stitching>`
 
 
 ***
