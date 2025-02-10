@@ -13,7 +13,8 @@ El plugin de stitching puede leer los ``.zvi`` directamente, jalando de los meta
 
 .. image:: stit01.png
 
-![](https://i.imgur.com/8KKQ8qO.png `![ <https://i.imgur.com/8KKQ8qO.png>`_
+.. image:: stit02.png
+
 
 Y listones.
 
@@ -44,7 +45,8 @@ do
   mv $f f_``zeropad $s 3``.png
 done
 ``````
-![](https://i.imgur.com/s9r4BUR.png `![ <https://i.imgur.com/s9r4BUR.png>`_
+
+.. image:: stit03.png
 
 
 :information_source: El formato png seguramente no es la mejor opción para lidiar con estas imágenes, debería estar usando tiff, pero para las pruebas basta el png.
@@ -57,20 +59,23 @@ stitching en Fiji
 
 Vamos a ``Plugings``, ``Stitching``, ``Grid/Collection Stitching``. Dependiendo si el mosaico se obtuvo con barrido _meander_ o _comb_, seleccionamos _grid snake by rows_ o _grid row by row_ respectivamente.
 
-![](https://i.imgur.com/zs1GGPi.png `![ <https://i.imgur.com/zs1GGPi.png>`_
+
+.. image:: stit04.png
 
 Hay que decirle de qué tamaño es el mosaico (yo lo saqué por ensayo/error, pero pues hubiera sido mejor haberlo apuntado en una bitácora). Se le indica también dónde está la carpeta con los archivos y la nomenclatura de los mismos.
 
-![](https://i.imgur.com/m6y5sU6.png `![ <https://i.imgur.com/m6y5sU6.png>`_
+.. image:: stit05.png
+
 
 Las ``iii`` en los _File names for tiles_ indican los índices de los archivos que cambiamos con el ``zeropad``.
 
 Le damos ``OK`` y unos diez segundos después tenemos el resultado:
 
-![](https://i.imgur.com/BmK7Rlj.png `![ <https://i.imgur.com/BmK7Rlj.png>`_
+.. image:: stit06.png
 
 Si nos equivocamos en lo de meander/comb o el número de cuadros, veremos algun resultado medio loco.
-![](https://i.imgur.com/SLU8RIj.png `![ <https://i.imgur.com/SLU8RIj.png>`_
+
+.. image:: stit06.png
 
 
 Pendiente
