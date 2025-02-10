@@ -29,6 +29,7 @@ Configuración de rclone
 .. image:: rclone_dropbox_config.png
 
 7. Finalmente le decimos que ``y`` a cuando nos pregunte si todo está bien.
+
 8. Salimos de la configuración con ``q``.
 
 
@@ -38,10 +39,12 @@ Montar Dropbox mediante rclone
 
 1. Designamos un lugar dónde montarlo y creamos el directorio, en caso necesario. En mi caso, montaré en ``/misc/mansfield/lconcha/nobackup/mnt_dropbox``. Para facilitarme la vida, corro estos comandos:
 
-``````
-dropbox_mount=/misc/mansfield/lconcha/nobackup/mnt_dropbox
-mkdir $dropbox_mount
-``````
+
+.. code:: Bash
+
+   dropbox_mount=/misc/mansfield/lconcha/nobackup/mnt_dropbox
+   mkdir $dropbox_mount
+
 >  :warning: La carpeta está adentro de una carpeta llamada **``nobackup``**. Ya sabes por qué, verdad? Si no sabes, consulta la entrada de [[Clúster]]
 
 >  :warning: Si alguna vez lconcha se encuentra una carpeta de éstas montada en algún lugar _respaldable_ habrá `consecuencias graves <https://media.giphy.com/media/ToMjGpIYtgvMP38WTFC/source.gif>`_.
@@ -49,14 +52,16 @@ mkdir $dropbox_mount
 
 2. Monto Dropbox en ``dropbox_mount``:
 
-``````
-rclone mount dropbox: $dropbox_mount
-``````
+
+.. code:: Bash
+
+   rclone mount dropbox: $dropbox_mount
  
 Se tarda unos segundos, pero ahora ya podemos ver los archivos adentro de esa carpeta, utilizando la terminal o cualquier gestor de archivos. Nota que el comando se queda _colgado_, eso quiere decir que está montado dropbox. Si cancelas ese comando, se desmonta dropbox.
 
 3. Desmontar es fácil. Simplemente tecleamos ``Ctrl+c`` en la terminal. Si alguna vez te da algún problema, la manera manual de desmontar es:
 
-``````
-fusermount -u $dropbox_mount
-``````
+
+.. code:: Bash
+
+   fusermount -u $dropbox_mount
