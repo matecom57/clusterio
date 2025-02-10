@@ -1,0 +1,22 @@
+official Sphinx tutorial --> :doc:`official Sphinx tutorial <sphinx:tutorial/index>` --> https://www.sphinx-doc.org/en/master/tutorial/index.html
+
+register for a free account  --> `register for a free account <https://github.com/signup>`_ --> https://github.com/
+
+sign in to GitHub --> `sign in to GitHub <https://github.com/login>`_
+
+Sign Up page -> `Sign Up page <https://readthedocs.org/accounts/signup/>`_
+
+First steps
+Importing the project to Read the Docs
+
+the import page --> `the import page <https://readthedocs.org/dashboard/import/>`_
+
+Checking the first build
+
+
+
+
+
+
+
+
