@@ -11,7 +11,7 @@ stitching directo en fiji (versión corta y chida)
 
 El plugin de stitching puede leer los ``.zvi`` directamente, jalando de los metadatos las coordenadas de la adquisición. Eso significa que incluso podemos olvidar si adquirimos el mosaico como _comb_ o como _snake_ (_wander_), y de todas maneras queda bien!
 
-![](https://i.imgur.com/Vn10m54.png `![ <https://i.imgur.com/Vn10m54.png>`_
+.. image:: stit01.png
 
 ![](https://i.imgur.com/8KKQ8qO.png `![ <https://i.imgur.com/8KKQ8qO.png>`_
 
