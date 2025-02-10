@@ -169,12 +169,12 @@ Cerrar sesión
 
 Al terminar de utilizar el equipo se puede salir de dos formas. Cerrando la sesión en el equipo remoto. Primero usamos el botón para cerrar sesión.
 
-.. image:: go10.png
+.. image:: go-cerrar.png
 
 
 Esto desplegará la ventana de sesión y ahí seleccionaremos el botón **Logout** para cerrar la sesión.
 
-.. image:: go11.png
+.. image:: go10.png
 
 > **CUIDADO:** No debemos apagar, reiniciar, Hibernar o Suspender el equipo. Podría causar un problema al funcionamiento del clúster.
  
@@ -198,9 +198,10 @@ El screensaver está activado por defecto en la PC a la que nos estamos conectan
 
 Primero buscamos la aplicación del screensaver:
 
+.. image:: go11.png
 
-![](https://github.com/c13inb/c13inb.github.io/blob/master/images/screensaver_paso1.png `![ <https://github.com/c13inb/c13inb.github.io/blob/master/images/screensaver_paso1.png>`_
 
 Y lo desabilitamos: 
 
-![](https://github.com/c13inb/c13inb.github.io/blob/master/images/screensaver_paso2.png `![ <https://github.com/c13inb/c13inb.github.io/blob/master/images/screensaver_paso2.png>`_
+.. image:: go12.png
+
