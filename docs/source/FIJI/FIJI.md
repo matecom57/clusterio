@@ -1,6 +1,6 @@
 # FIJI
 
-**FIJI** (FIJI **I**s **J**ust **I**mageJ) es una herramienta muy útil para el procesamiento y análisis de imágenes, especialmente histológicas. En esta entrada abordaremos algunas de sus características principales. 
+**FIJI** (FIJI Is Just ImageJ) es una herramienta muy útil para el procesamiento y análisis de imágenes, especialmente histológicas. En esta entrada abordaremos algunas de sus características principales. 
 
 Este software esta lleno de opciones para procesar las imágenes y ademas cuenta con una librería muy vasta de plugins para realizar diferentes tipos de análisis. Toda la comunidad que desee compartir sus trucos en FIJI para sus análisis es bienvenido a colaborar en esta wiki!
 

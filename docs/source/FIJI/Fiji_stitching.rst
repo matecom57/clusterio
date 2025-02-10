@@ -1,5 +1,5 @@
-Fiji:stitching 01
-====================
+Fiji_stitching
+==============
 
 
 convertir ``.zvi`` y hacer mosaicos
