@@ -46,7 +46,9 @@ En el caso de **Ubuntu** la instalación requiere:
 .. code: Bash
 
    sudo add-apt-repository ppa:x2go/stable
+
    sudo apt-get update
+
    sudo apt-get install x2goclient
 
 Configuración
