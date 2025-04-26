@@ -2,9 +2,7 @@
 
 fil=$1
 
-ls ../../../c13inb.github.io.wiki/
-
-cp ../../../c13inb.github.io.wiki/$fil .
+cp -r ../../../../santosg/andysbrainbook.readthedocs.io/en/latest/_sources/$fil .
 
 
 
