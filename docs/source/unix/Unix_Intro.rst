@@ -4,7 +4,7 @@ What is Unix?
 
 Unix is an operating system, just like Macintosh or Windows. The major difference between Unix and other operating systems is that it uses a command line interface, or **command line** for short: Instead of pointing and clicking like you would in a Windows or Macintosh machine, you type the commands that you want to run. The command line is typed in a **Terminal**, a window in which you can only type text. The Terminal emulates (i.e., reproduces the function of) a `console <https://en.wikipedia.org/wiki/System_console>`__.
 
-.. figure:: ../imagenes/Terminal_Example.png
+.. figure:: Terminal_Example.png
 
     Macintosh and Linux operating systems have Terminals installed. On a Macintosh, for example, click on the Finder magnifying glass, and type "Terminal". When you open it, you should see something like the window on the right.
 
